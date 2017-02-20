@@ -79,7 +79,7 @@ body {
 	color: rgb(139,203,200);
 }
 .main-nav-direction a:hover,.main-nav-direction a:focus{
-	text-decoration: underline;
+	text-decoration: none;
 	color: rgb(236,199,12);
 }
 a.select{
@@ -93,6 +93,52 @@ a.select{
 	max-width: 1024px;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+
+.mainImage{
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding-top: 3em;
+	height: auto;	
+	position: relative;
+}
+
+.mainImage img{
+    margin: auto;
+    width: 100%;
+}
+
+.mainImage a{
+    color: transparent; 
+}
+
+.previousButton {
+	display: block;
+	position: absolute;
+	background-image: url("../img/previousButton.png");
+	background-size: 3em 3em;
+	background-repeat: no-repeat;
+	width: 3em;
+	height: 3em;
+	z-index: 5;
+	opacity: 1;
+	top: 50%;
+	left: 0;
+}
+
+.mainImage .nextButton {
+	display: block;
+	position: absolute;
+	background-image: url("../img/nextButton.png");
+	background-size: 3em 3em;
+	width: 3em;
+	height: 3em;
+	z-index: 100;
+	opacity: 1;
+	top: 50%;
+	right: 0;
 }
 
 
