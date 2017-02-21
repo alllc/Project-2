@@ -93,14 +93,14 @@ a.select{
 	max-width: 1024px;
 	margin: 0 auto;
 	padding: 0 20px;
+	min-height: auto;
 }
 
 
 .mainImage{
 	width: 100%;
 	display: block;
-	margin: 0;
-	padding-top: 3em;
+	margin: 5em 0 5em 0;
 	height: auto;	
 	position: relative;
 }
@@ -141,6 +141,33 @@ a.select{
 	right: 0;
 }
 
+.button-view {
+  display: inline-block;
+  border: none;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #333;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-view:hover, .button-nav:focus {
+  background-color: rgb(180,137,69);
+}
+
+
+.introduction p {
+	color: rgb(128,128,128);
+	font-size: 0.9rem;
+}
+
+.customizeIntro {
+	background-image: url("../img/productImage2.jpg");
+
+}
+
 
 
 
@@ -174,7 +201,59 @@ a.select{
 		order: 3;
 		flex-grow: 0;
 	}
+
+	.introduction {
+		display: flex;
+		flex-flow: row;
+		flex-wrap: wrap;
+	}
+
+	.introduction img,
+	.companyIntor,
+	.customizeIntro,
+	.projectIntro {
+		width: 50%;
+	}
+
+	.introduction img,
+	.companyIntor {
+		height: 50%;
+	}
+
+
+	.customizeIntro {
+		padding: 2em;
+		flex-grow: 2;
+		height: 700px;
+	}
+
+	.customizeIntro p{
+		width: 50%;
+		color: #000;
+	}
+
+	.projectIntro{
+		padding: 2em;
+		flex-grow: 2;
+		display: flex;
+		flex-flow: row;
+		flex-wrap: wrap;
+	}
+	.projectIntro h2{
+		width: 100%;
+		text-align: center;
+	}
+	.projectIntro img{
+		width: 42%;
+		height: 84%;
+		padding: 4%;
+	}
+
+
+
 }
+
+
 @media(max-width: 890px){
 	/* position for logo */
 	.main-nav-logo{
@@ -196,4 +275,13 @@ a.select{
 		order: 3;
 		flex-grow: 0;
 	}
+
+	.introduction {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center; 
+	}
+
+
+
 }

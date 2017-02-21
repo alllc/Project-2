@@ -74,7 +74,7 @@ section code {
 }
 
 .button-submit:hover, .button-nav:focus {
-  background-color: rgb(218,233,228);
+  background-color: rgb(180,137,69);
 }
 
 .input-text[type=text] {
