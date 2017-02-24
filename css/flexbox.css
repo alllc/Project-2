@@ -53,15 +53,7 @@
 	box-sizing: border-box;
 }
 
-.products div{
-	flex:1;
-	padding: 1em;
-	box-sizing: border-box;
-	flex-basis: 30%;
-}
-
-
-.serviceIntro div{
+.col-of-3 div{
 	flex:1;
 	padding: 1em;
 	box-sizing: border-box;
@@ -146,7 +138,7 @@
 	}
 
 }
-@media(max-width: 425px){
+@media(max-width: 506px){
 	/* make product list into column*/
 	.responsive-col{
 
