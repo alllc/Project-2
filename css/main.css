@@ -42,20 +42,12 @@ body {
 	text-decoration: none;
 }
 
-/* position for main */
-.main-nav{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	max-width: 1440px;
-	margin: 0px auto;
-	padding: 10px 20px;
-}
 /* adding border to main nav*/
 .main-nav-section{
 	border-bottom: 1px solid;
+	border-color: #b8d1c9;
 	background-color: white;
+	box-shadow: 3px 3px 16px #72d1b5;
 }
 /* position for logo */
 .main-nav-logo{
@@ -69,21 +61,23 @@ body {
 	list-style: none;
 }
 .main-nav-direction li{
-	flex: 1;
 	font-size: 1rem;
 	text-align: center;
 	line-height: 40px;
 }
+
 .main-nav-direction a{
 	display: block;
 	color: rgb(139,203,200);
 }
+
 .main-nav-direction a:hover,.main-nav-direction a:focus{
 	text-decoration: none;
 	color: rgb(236,199,12);
 }
 a.select{
-	color: rgb(60,46,61);
+	color: #666;
+	text-shadow: 0px 6px 3px #666;
 }
 
 /*
@@ -96,11 +90,14 @@ a.select{
 	min-height: auto;
 }
 
-
+/*
+	Main Image
+*/
 .mainImage{
 	width: 100%;
 	display: block;
-	margin: 5em 0 5em 0;
+	margin: 5em auto 5em auto;
+	box-sizing: border-box;
 	height: auto;	
 	position: relative;
 }
@@ -108,11 +105,15 @@ a.select{
 .mainImage img{
     margin: auto;
     width: 100%;
+    border:solid;
+    border-width: 1px;
+    border-radius: 12px;
+    border-color: rgb(210,210,210);
 }
 
 .mainImage a{
-    color: transparent; 
-}
+	color: transparent; 
+ }
 
 .previousButton {
 	display: block;
@@ -123,30 +124,46 @@ a.select{
 	width: 3em;
 	height: 3em;
 	z-index: 5;
-	opacity: 1;
-	top: 50%;
+	opacity: 0.2;
+	top: 45%;
 	left: 0;
 }
 
-.mainImage .nextButton {
+
+.nextButton {
 	display: block;
 	position: absolute;
 	background-image: url("../img/nextButton.png");
 	background-size: 3em 3em;
+	background-repeat: no-repeat;
 	width: 3em;
 	height: 3em;
 	z-index: 100;
-	opacity: 1;
-	top: 50%;
+	opacity: 0.2;
+	top: 45%;
 	right: 0;
+}
+
+
+/*Service intro*/
+.serviceIntro img {
+	width: 30%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.serviceIntro p {
+	color: rgb(150,150,150);
+	font-size: 0.9rem;
 }
 
 .button-view {
   display: inline-block;
   border: none;
-  padding: 0.5em 0.75em;
+  padding: 0.3em 0.5em;
   color: #FFF;
-  background-color: #333;
+  background-color: rgb(139,203,200);
   border-radius: 0.25em;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
@@ -154,134 +171,21 @@ a.select{
 }
 
 .button-view:hover, .button-nav:focus {
-  background-color: rgb(180,137,69);
+  background-color: rgb(138,203,230);
 }
 
 
-.introduction p {
-	color: rgb(128,128,128);
-	font-size: 0.9rem;
+/*Products category*/
+
+.products img {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
 }
 
-.customizeIntro {
-	background-image: url("../img/productImage2.jpg");
-
-}
-
-
-
-
-/*
-	Responsive web
-*/
-@media(min-width: 891px){
-	/* position for logo */
-	.main-nav-logo{
-		order: 1;
-		flex-grow: 0;
-	}
-	/* position for ul link*/
-	.main-nav-direction{
-		order: 2;
-		flex-grow: 2;
-	}
-	.main-nav-direction ul{
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		list-style: none;
-		flex: 1;
-	}
-	/* side nav icon */
-	.side-nav-icon{
-		display: none;
-	}
-	/* postion for icons */
-	.main-nav-icon{
-		order: 3;
-		flex-grow: 0;
-	}
-
-	.introduction {
-		display: flex;
-		flex-flow: row;
-		flex-wrap: wrap;
-	}
-
-	.introduction img,
-	.companyIntor,
-	.customizeIntro,
-	.projectIntro {
-		width: 50%;
-	}
-
-	.introduction img,
-	.companyIntor {
-		height: 50%;
-	}
-
-
-	.customizeIntro {
-		padding: 2em;
-		flex-grow: 2;
-		height: 700px;
-	}
-
-	.customizeIntro p{
-		width: 50%;
-		color: #000;
-	}
-
-	.projectIntro{
-		padding: 2em;
-		flex-grow: 2;
-		display: flex;
-		flex-flow: row;
-		flex-wrap: wrap;
-	}
-	.projectIntro h2{
-		width: 100%;
-		text-align: center;
-	}
-	.projectIntro img{
-		width: 42%;
-		height: 84%;
-		padding: 4%;
-	}
-
-
-
+.products p {
+	text-align: center;
 }
 
 
-@media(max-width: 890px){
-	/* position for logo */
-	.main-nav-logo{
-		order: 2;
-		flex-grow: 0;
-	}
-	.side-nav-icon{
-		display: block;
-		order: 1;
-		flex-grow: 0;
-	}
-	/* position for ul link*/
-	.main-nav-direction{
-		display: none;
-	}
-	
-	/* postion for icons */
-	.main-nav-icon{
-		order: 3;
-		flex-grow: 0;
-	}
-
-	.introduction {
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center; 
-	}
-
-
-
-}
