@@ -4,11 +4,11 @@ body {
 }
 /* Styling for the heading */
 h1{
- 	font-size: 2.5rem;
+ 	font-size: 1.5rem;
   	font-weight: bold;
 }
 h2{
-  	font-size: 2rem;
+  	font-size: 1.1rem;
   	font-weight: bold;
 }
 h3{
@@ -31,7 +31,12 @@ p{
 /* Styling for the description */
 .desc{
   	font-size: 1rem;
+  	text-align: left;
   	font-style: italic;
+}
+.para{
+  	font-size: 1rem;
+  	text-align: left;
 }
 /* setting size for icons and logo */
 .icon{
@@ -221,26 +226,11 @@ a.select{
 	height: auto;
 }
 
-#chairHead {
-	font-size: 1.5em;
-	font-weight: bold;
-}
-
-#techSpecif {
-	font-size: 1.1em;
-	font-weight: bold;
-}
-
 .materialImage img {
 	width: 50%;
 	height: auto;
 }
 
-.materialImage p {
-	text-align: left;
-	size: 0.5em;
-	color: #aaa;
-}
 
 #chair1Colour1 {background: #222;}
 #chair1Colour2 {background: #eee;}
@@ -250,10 +240,6 @@ a.select{
 	height: 2em;
 }
 
-#dimValue, #chairDescription{
-	size: 0.5em;
-	color: #aaa;
-}
 
 /*Table page css*/
 
