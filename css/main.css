@@ -81,8 +81,10 @@ a.select{
 }
 
 /*
-	CONTENT 
+	Home page  
 */
+
+/*CONTENT*/
 .body-content-section{
 	max-width: 1024px;
 	margin: 0 auto;
@@ -139,7 +141,7 @@ a.select{
 	width: 3em;
 	height: 3em;
 	z-index: 5;
-	opacity: 0.2;
+	opacity: 0.5;
 	top: 45%;
 	left: 0;
 }
@@ -154,7 +156,7 @@ a.select{
 	width: 3em;
 	height: 3em;
 	z-index: 100;
-	opacity: 0.2;
+	opacity: 0.5;
 	top: 45%;
 	right: 0;
 }
@@ -187,6 +189,94 @@ a.select{
 
 .button-view:hover, .button-nav:focus {
   background-color: rgb(138,203,230);
+}
+
+
+/* ChairPage css */
+.chairs img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.chairs p {
+	color: rgb(150,150,150);
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+.chairs .button-view {
+	opacity: 0.5;
+}
+
+.pageNums {
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin: 0em 0 3em 0;
+
+}
+
+.pageNums a {
+	padding: 0.5em;
+	border:solid;
+    border-width: 0.5px;
+    border-radius: 3px;
+    border-color: #ccc;
+    color: #aaa;
+    text-decoration: none;
+}
+
+/* Chair1Page css */
+#backtochairs {
+	padding: 1em;
+	position: absolute;
+	top: 5em;
+}
+
+.mainChairImage {
+	width: 100%;
+	height: auto;
+}
+
+.subChairImage {
+	width: 30%;
+	height: auto;
+}
+
+#chairHead {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#techSpecif {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.materialImage img {
+	width: 50%;
+	height: auto;
+}
+
+.materialImage p {
+	text-align: left;
+	size: 0.5em;
+	color: #aaa;
+}
+
+#chair1Colour1 {background: #222;}
+#chair1Colour2 {background: #eee;}
+#chair1Colour3 {background: #aaa;}
+
+.chair1Colours div{
+	height: 2em;
+}
+
+#dimValue, #chairDescription{
+	size: 0.5em;
+	color: #aaa;
 }
 
 
