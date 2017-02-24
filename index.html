@@ -8,15 +8,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/flexbox.css">
 
 	</head>
 
 	<body>
 
-		<section class="main-nav-section grid-row">
+		<section class="main-nav-section">
 			<nav class="main-nav">
 				<div class="main-nav-logo">
-					<a href="">
+					<a href="index.html">
 						<img src="icons/logo-icon.png" class="logo" alt="logo-icon">
 					</a>
 				</div>
@@ -33,10 +34,10 @@
 				<div class="main-nav-direction">
 					<ul>
 						<li>
-							<a href="" class="select">Home</a>
+							<a href="index.html" class="select">Home</a>
 						</li>
 						<li>
-							<a href="" >Project</a>
+							<a href="project.html" >Project</a>
 						</li>
 						<li>
 							<a href="" >Custom Order</a>
@@ -63,17 +64,36 @@
 			</nav>
 		</section>
 		
-		<section class="body-content-section grid-row">
-			
-			<h1>Project</h1>
+		<section class="body-content-section">
 
-			<div class="mainImage">
-				<img id="chairImg" src="img/brand/chair.jpg" alt="chair">
-			</div>	
+
+			<section class="mainImage">
+				<a class="previousButton" href="#">Previous</a>
+				<img id="cabinetImg" src="img/mainImage.png" alt="cabinet">
+				<a class="nextButton" href="#">Next</a>
+			</section>
+
+			<section class="serviceIntro responsive-row responsive-col">
+				<div>
+					<img src="icons/icon-chair.png" alt="chair">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae metus mollis, finibus nulla ut, mattis ipsum. Proin sed lectus eu purus consectetur placerat sit amet quis lorem. Integer quis ipsum nulla. Duis leo magna, fringilla non lacinia sit amet, laoreet non est. Donec sit amet metus eget erat lobortis semper. </p>
+					<p><a class="button-view" href="#">View More</a></p>
+				</div>
+				<div>
+					<img src="icons/icon-cabin.png" alt="cabin">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae metus mollis, finibus nulla ut, mattis ipsum. Proin sed lectus eu purus consectetur placerat sit amet quis lorem. Integer quis ipsum nulla. Duis leo magna, fringilla non lacinia sit amet, laoreet non est. Donec sit amet metus eget erat lobortis semper.</p>
+					<p><a class="button-view" href="#">View More</a></p>
+				</div>
+				<div>
+					<img src="icons/icon-colour.png" alt="colour">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae metus mollis, finibus nulla ut, mattis ipsum. Proin sed lectus eu purus consectetur placerat sit amet quis lorem. Integer quis ipsum nulla. Duis leo magna, fringilla non lacinia sit amet, laoreet non est. Donec sit amet metus eget erat lobortis semper.</p>
+					<p><a class="button-view" href="#">View More</a></p>
+				</div>
+			</section>
+
 
 		</section>
 		
-
 	</body>
 
 </html>

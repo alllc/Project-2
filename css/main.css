@@ -193,20 +193,20 @@ a.select{
 
 
 /* ChairPage css */
-.chairs img {
+.items img {
 	width: 100%;
 	height: auto;
 	display: block;
 	margin: auto;
 }
 
-.chairs p {
+.items p {
 	color: rgb(150,150,150);
 	text-align: center;
 	font-size: 0.9rem;
 }
 
-.chairs .button-view {
+.items .button-view {
 	opacity: 0.5;
 }
 
