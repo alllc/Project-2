@@ -69,10 +69,7 @@ p{
 .main-nav-logo{
 	padding: 0 0px 0 0;
 }
-/* position for ul link*/
-.main-nav-direction{
-	
-}
+
 .main-nav-direction ul{
 	list-style: none;
 }
@@ -93,6 +90,7 @@ p{
 }
 a.select{
 	color: #666;
+	text-decoration: underline;
 	text-shadow: 0px 6px 3px #666;
 }
 
