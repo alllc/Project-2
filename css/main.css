@@ -205,11 +205,10 @@ a.select{
     text-decoration: none;
 }
 
-/* Chair1Page css */
-#backtochairs {
+/* back to previous page buttom*/
+.back-to-previous {
 	padding: 1em;
 	position: absolute;
-	top: 5em;
 }
 
 .mainChairImage {
