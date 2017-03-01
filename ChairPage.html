@@ -9,133 +9,166 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/flexbox.css">
-
+		<link rel="stylesheet" type="text/css" href="css/side-nav.css" />
+		<script src="js/modernizr.custom.js"></script>
 	</head>
 
-	<body>
+	<body class="cbp-spmenu-push">
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<h3>Menu</h3>
+				<a href="index.html" >Home</a>
+				<a href="project.html" class="select">Project</a>
+				<a href="customOrder.html" >Custom Order</a>
+				<a href="material.html" >Material</a>
+				<a href="service.html" >Service</a>
+				<a href="aboutUs.html" >About Us</a>
+		</nav>
+		
+		<div>
+			<section class="main-nav-section">
+				<nav class="main-nav">
+					<div class="main-nav-logo">
+						<a href="index.html">
+							<img src="icons/logo-icon.png" class="logo" alt="logo-icon">
+						</a>
+					</div>
 
-		<section class="main-nav-section">
-			<nav class="main-nav">
-				<div class="main-nav-logo">
-					<a href="index.html">
-						<img src="icons/logo-icon.png" class="logo" alt="logo-icon">
-					</a>
-				</div>
+					<div class="main-nav-icon">
+						<a href="logIn.html">
+							<img src="icons/account.png" class="icon" alt="person-icon">
+						</a>
+						<a href="">
+							<img src="icons/shopping-cart.png" class="icon" alt="shopping-cart">
+						</a>
+					</div>
 
-				<div class="main-nav-icon">
-					<a href="logIn.html">
-						<img src="icons/account.png" class="icon" alt="person-icon">
-					</a>
-					<a href="">
-						<img src="icons/shopping-cart.png" class="icon" alt="shopping-cart">
-					</a>
-				</div>
+					<div class="main-nav-direction">
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="project.html" class="select">Project</a>
+							</li>
+							<li>
+								<a href="customOrder.html" >Custom Order</a>
+							</li>
+							<li>
+								<a href="material.html" >Material</a>
+							</li>
+							<li>
+								<a href="service.html" >Service</a>
+							</li>
+							<li>
+								<a href="aboutUs.html" >About Us</a>
+							</li>
+						</ul>
+					</div>
 
-				<div class="main-nav-direction">
-					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="project.html" class="select">Project</a>
-						</li>
-						<li>
-							<a href="customOrder.html" >Custom Order</a>
-						</li>
-						<li>
-							<a href="material.html" >Material</a>
-						</li>
-						<li>
-							<a href="service.html" >Service</a>
-						</li>
-						<li>
-							<a href="aboutUs.html" >About Us</a>
-						</li>
-					</ul>
-				</div>
-
-				<!-- side menu icons in mobile view -->
-				<div class="side-nav-icon">
-					<a href="">
-						<img src="icons/side-nav.png" class="icon" alt="menu-icon">
+					<!-- side menu icons in mobile view -->
+					<div class="side-nav-icon">
+						<button id="showLeftPush">
+							<img src="icons/side-nav.png" class="icon" alt="menu-icon" >
+							</button>
 						<img src="icons/search.png" class="icon" alt="search-icon">
-					</a>
-				</div>
-			</nav>
-		</section>
-		
-		<section class="body-content-section">
-
-			<section class="items responsive-row responsive-col">
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/whiteChair1.png" alt="chair1"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
 					</div>
-					
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/chair6.jpg" alt="chair2"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
-					
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/whiteChair3.png" alt="chair3"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
-					
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/chair1.png" alt="chair4"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
-					
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/chair2.png" alt="chair5"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
-					
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/chair3.png" alt="chair6"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
-					
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/chair4.png" alt="chair7"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
-					
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/chair5.png" alt="chair8"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
-
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/whiteChair2.png" alt="chair9"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
-
-					<div class="col-of-5">
-						<a href="Chair1Page.html"><img src="img/chair7.jpg" alt="chair10"></a>
-						<p>wood dining chair</p>
-						<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
-					</div>
+				</nav>
 			</section>
+			
+			<section class="body-content-section">
 
-			<section class="pageNums">
-					<a href="#">1</a>
-					<a href="#">2</a>
-					<a href="#">3</a>
-					<a href="#">Next</a>
+				<section class="items responsive-row responsive-col">
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/whiteChair1.png" alt="chair1"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair6.jpg" alt="chair2"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/whiteChair3.png" alt="chair3"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair1.png" alt="chair4"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair2.png" alt="chair5"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair3.png" alt="chair6"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair4.png" alt="chair7"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair5.png" alt="chair8"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/whiteChair2.png" alt="chair9"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair7.jpg" alt="chair10"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+				</section>
+
+				<section class="pageNums">
+						<a href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">Next</a>
+				</section>
 			</section>
-		</section>
-		
+		</div>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+
+			
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+
+			function disableOther( button ) {
+				if( button !== 'showLeft' ) {
+					classie.toggle( showLeft, 'disabled' );
+				}
+			}
+		</script>
 	</body>
 
 </html>

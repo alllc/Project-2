@@ -238,7 +238,10 @@ a.select{
 	height: 2em;
 }
 
-
+/* product detail price + button follow left */
+.info-left {
+	text-align: left;
+}
 /*Table page css*/
 
 
