@@ -294,6 +294,47 @@ a.select{
 }
 /*Table page css*/
 
+/*Login*/
+.loginForm {
+	margin: 2em auto 2em auto;
+	padding: 2em;
+	width: 50%;
+	display: block;
+}
 
+.account {
+	width: 10%;
+	height: auto;
+	padding: 2em;
+}
+
+form {
+    border: 3px solid #eee;
+    padding: 2em;
+}
+
+input[type=text], input[type=password] {
+    width: 	100%;
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #8BCBC8;
+    box-sizing: border-box;
+    color: #aaa;
+}
+
+button {
+    background-color: #8BCBC8;
+    color: white;
+    padding: 0.8em 1em;
+    margin: 0.5em 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.psw {
+	text-align: left;
+}
 
 

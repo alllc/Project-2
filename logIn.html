@@ -75,11 +75,24 @@
 				</nav>
 			</section>
 			
-			<section class="body-content-section">
+			<section class="loginForm" class="body-content-section">
+				<form>
+				  <div class="imgcontainer">
+				    <img  class="account" src="img/account.png" alt="account">
+				  </div>
 
+				  <div class="container">
+				    <label><b>Username: </b></label>
+				    <input type="text" placeholder="Enter Username" name="uname" required>
 
+				    <label><b>Password: </b></label>
+				    <input type="password" placeholder="Enter Password" name="psw" required>
 
-
+				    <button type="submit" onclick="window.location.href='customOrder.html'"">Login</button>
+				    <input type="checkbox" checked="checked"> Remember me
+				    <p class="psw">Forgot <a href="#">password?</a></p>
+				  </div>
+				</form>	
 			</section>
 		</div>
 		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
