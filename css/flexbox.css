@@ -95,8 +95,9 @@
 
 /* recent view section */
 .recentView {
-	align-items: center;
+	justify-content: center;
 }
+
 
 /* alining item list */
 .items{
