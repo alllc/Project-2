@@ -259,20 +259,18 @@ a.select{
 	height: auto;
 }
 
-.rencentView {
+.recentView {
 	border-style: solid;
 	border-color: #ccc;
 	border-width: 1px;
+	margin-bottom: 1em;
 }
 
-.rencentView img {
-	width: 30%;
+.recentView img {
+	width: 50%;
 	height: auto;
 }
 
-.rencentView a {
-	text-align: center;
-}
 
 .materialImage img {
 	width: 50%;
@@ -280,8 +278,8 @@ a.select{
 }
 
 .productsImage img{
-	width: 20%;
-	height: auto;
+	width: auto;
+	height: 100px;
 }
 
 #chair1Colour1 {background: rgb(57, 41, 35);}
