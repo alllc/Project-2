@@ -80,12 +80,14 @@ p{
 	line-height: 30px;
 }
 
-.main-nav-direction a{
+/* editing main nav and side nav link */
+.main-nav-direction a, .cbp-spmenu a{
 	display: block;
 	color: rgb(139,203,200);
+	text-decoration: none;
 }
 
-.main-nav-direction a:hover,.main-nav-direction a:focus{
+.main-nav-direction a:hover,.main-nav-direction a:focus, .cbp-spmenu a:hover, .cbp-spmenu a:focus {
 	text-decoration: none;
 	color: rgb(236,199,12);
 }
