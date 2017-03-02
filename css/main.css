@@ -187,6 +187,38 @@ a.select{
   background-color: rgb(138,203,230);
 }
 
+.button-view-2 {
+  display: inline-block;
+  border: none;
+  padding: 0.2em 0.3em;
+  color: rgb(139,203,200);
+  font-size: 0.8em;
+  border-radius: 0.25em;
+  text-decoration: underline;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+#homeImage2 {
+	width: 100%;
+	height: auto;
+}
+
+#homeImage1 {
+	width: 75%;
+	height: auto;
+}
+
+#homeImage5 {
+	width: 75%;
+	height: auto;
+	margin: 10px auto 0 auto;
+}
+
+#homeImage4{
+	width: 75%;
+	height: auto;
+}
 
 
 .items .button-view {
@@ -227,15 +259,32 @@ a.select{
 	height: auto;
 }
 
+.rencentView {
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px;
+}
+
+.rencentView img {
+	width: 30%;
+	height: auto;
+}
+
+.rencentView a {
+	text-align: center;
+}
+
 .materialImage img {
 	width: 50%;
 	height: auto;
 }
 
+.productsImage img{
+	width: 20%;
+	height: auto;
+}
 
-#chair1Colour1 {background: #222;}
-#chair1Colour2 {background: #eee;}
-#chair1Colour3 {background: #aaa;}
+#chair1Colour1 {background: rgb(57, 41, 35);}
 
 .chair1Colours div{
 	height: 2em;
