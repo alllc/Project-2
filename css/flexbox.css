@@ -89,7 +89,7 @@
 }*/
 /* product image on project page */
 .productsImage{
-	justify-content: center;
+	justify-content: flex-start;
 	/*align-items: stretch;*/
 }
 
