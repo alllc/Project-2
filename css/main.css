@@ -210,8 +210,21 @@ a.select{
   font-size: 0.8em;
   border-radius: 0.25em;
   text-decoration: underline;
+}
+
+.button-view-3 {
+  display: inline-block;
+  border: none;
+  padding: 0.8em 1.2em;
+  color: #fff;
+  background-color: #ECC79C;
+  text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
+}
+
+.button-view-3:hover, .button-nav-3:focus {
+  background-color: #A8C7FF;
 }
 
 #homeImage2 {
@@ -347,6 +360,9 @@ a.select{
 	background-color: #ecf0f1;
 	margin: 1em 0 1em 0;
 	border-radius: 6px;
+	cursor: pointer;
+	 -webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
 }
 
 .services div:hover, .services div:focus {
