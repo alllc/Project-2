@@ -335,7 +335,7 @@ a.select{
 	padding: 1em;
 }
 
-.loginForm button {
+button {
     background-color: #8BCBC8;
     color: white;
     padding: 0.8em 1em;
@@ -343,6 +343,19 @@ a.select{
     border: none;
     cursor: pointer;
     width: 100%;
+}
+
+.cancelButton {
+	background-color: rgba(236,23,105,0.3);
+    color: #eee;
+    padding: 0.8em 1em;
+    margin-top: 0.5em;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 
 .psw {
@@ -374,32 +387,64 @@ a.select{
 	Adding tag on product selection
 */
 /* Style the tab */
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+
+.steps div {
+	width: 18px;
+	height: 18px;
+	border-radius: 10px;
+	margin: 1em 1em 0 1em; 
 }
 
-/* Style the links inside the tab */
-div.tab a {
-    float: left;
-    display: block;
-    color: black;
+#step1-1 {background-color: #aaa;}
+#step1-2 {background-color: #eee;}
+#step1-3 {background-color: #eee;}
+
+#step2-1 {background-color: #000;}
+#step2-2 {background-color: #aaa;}
+#step2-3 {background-color: #eee;}
+
+#step3-1 {background-color: #000;}
+#step3-2 {background-color: #000;}
+#step3-3 {background-color: #aaa;}
+
+div.tab {
+    overflow: hidden;
+    margin-top: 2em;
+    border-radius: 5px;
+    background-color: rgba(114, 209, 181, 0.6);
+}
+
+div.tab a{
+	display: block;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+   	text-decoration: none;
+}
+/* Style the links inside the tab */
+.process {
+	float: left;
+	color: #222;
+}
+
+.tablinks {
+    float: right;
+    color: #333;
+    background-color: rgb(114, 209, 181);
 }
 
 /* Change background color of links on hover */
-div.tab a:hover {
-    background-color: #ddd;
+.tablinks:hover {
+    background-color: rgb(236,199,12);
+    color: #fff;
 }
 
 /* Create an active/current tablink class */
-div.tab a:focus, .active {
-    background-color: #ccc;
+.tablinks:focus, .active {
+    background-color: #ecb169;
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* Style the tab content */
@@ -408,4 +453,15 @@ div.tab a:focus, .active {
     padding: 6px 12px;
     /*border: 1px solid #ccc;*/
     border-top: none;
+}
+
+.size {
+	padding: 2em;
+}
+
+.customProduct {
+	height: 300px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #ccc;
 }
