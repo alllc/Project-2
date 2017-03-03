@@ -85,12 +85,32 @@
 	box-sizing: border-box;
 	flex-basis: 20%;
 }
+.col-2-5 {
+	padding: 0.5em;
+	box-sizing: border-box;
+	flex-basis: 40%;
 
+}
+.col-3-5 {
+	padding: 0.5em;
+	box-sizing: border-box;
+	flex-basis: 60%;
 
-.col-process {
+}
+.col-3-10 {
+	padding: 0.5em;
+	box-sizing: border-box;
+	flex-basis: 30%;
+
+}
+
+.col-7-10 {
+	padding: 0.5em;
 	flex-basis: 70%;
 	box-sizing: border-box;
 }
+
+
 .tab{
 	flex: 1;
 	justify-content: space-between;
@@ -102,13 +122,6 @@
 	justify-content: flex-start;
 }
 
-.col-show {
-	box-sizing: border-box;
-	margin-top: 7em;
-	flex-basis: 26%;
-	margin-left: 2%;
-	margin-right: 2%;
-}
 
 .steps {
   	display: flex;
@@ -160,7 +173,9 @@
 	margin: 0 0.2em 0 0;
 }
 
-
+.checkoutItem{
+	align-items: center;
+}
 
 /*
 	Responsive web

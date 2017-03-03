@@ -23,7 +23,7 @@ img {
 	margin: auto;
 }
 p{
-	color: rgb(150,150,150);
+	/*color: rgb(150,150,150);*/
 	text-align: center;
 	font-size: 0.9rem;
 }
@@ -362,9 +362,6 @@ a.select{
     display:block;
 }
 
-.psw {
-	text-align: left;
-}
 
 /*services page*/
 
@@ -490,19 +487,22 @@ div.tab a{
 }
 
 .payment img {
-	width: 15%;
+	min-width: 50%;
 	height: auto;
 	display: block;
-	margin-left: 2em;
 }
 
 
-.price, .price p{
+/*.price, .price p{
 	text-align: right;
+}*/
+.customImg{
+	margin-top: 7em;
 }
-
 
 .paymentForm img{
 	width: 20%;
 	height: auto;
 }
+
+
