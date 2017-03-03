@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>Product</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/flexbox.css">
+		<link rel="stylesheet" type="text/css" href="css/side-nav.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+
+	<body class="cbp-spmenu-push">
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<h1>Menu</h1>
+				<a href="index.html" >Home</a>
+				<a href="project.html" class="select">Project</a>
+				<a href="customOrder.html" >Custom Order</a>
+				<a href="material.html" >Material</a>
+				<a href="service.html" >Service</a>
+				<a href="aboutUs.html" >About Us</a>
+		</nav>
+
+		<div>
+			<section class="main-nav-section">
+				<nav class="main-nav">
+					<div class="main-nav-logo">
+						<a href="index.html">
+							<img src="icons/logo-icon.png" class="logo" alt="logo-icon">
+						</a>
+					</div>
+
+					<div class="main-nav-icon">
+						<a href="logIn.html">
+							<img src="icons/account.png" class="icon" alt="person-icon">
+						</a>
+						<a href="">
+							<img src="icons/shopping-cart.png" class="icon" alt="shopping-cart">
+						</a>
+					</div>
+
+					<div class="main-nav-direction">
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="project.html" class="select">Project</a>
+							</li>
+							<li>
+								<a href="customOrder.html" >Custom Order</a>
+							</li>
+							<li>
+								<a href="material.html" >Material</a>
+							</li>
+							<li>
+								<a href="service.html" >Service</a>
+							</li>
+							<li>
+								<a href="aboutUs.html" >About Us</a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- side menu icons in mobile view -->
+					<div class="side-nav-icon">
+						<button id="showLeftPush">
+							<img src="icons/side-nav.png" class="icon" alt="menu-icon" >
+							</button>
+						<img src="icons/search.png" class="icon" alt="search-icon">
+					</div>
+				</nav>
+			</section>
+			
+			<section class="body-content-section">
+
+					<a class="back-to-previous" href="ChairPage.html">Back to chairs</a>
+
+					<div class="product responsive-row responsive-col">
+						<section class="chairImage col-of-2">
+							<img class="mainChairImage" src="img/chair1.png" alt="mainImage">
+							<img class="subChairImage" src="img/chair1-a.jpg" alt="subImage">
+							<img class="subChairImage" src="img/chair1-b.jpg" alt="subImage">
+						</section>
+						<section class="chairDetial col-of-2">
+							<h1>Leather wood chair</h1>
+							<p class="info-left">Price: 199.99$</p>
+							<p class="info-left"><a class="button-view" href="Chair1bPage.html">Add to Cart</a></p>
+							<p class="info-left"><a class="button-view-2" href="#">Add to Wish List</a></p>
+							<p id="chairDescription" class="para">The Hal Leather Wood chair is a comfortable and elegant modern dining chair that holds many versatile uses throughout the modern home. The chair features a polypropylene seat and backrest covered in split leather with cushioning. The chair is supported by wooden legs with rubber grips. This chair is lightweight for easy relocation and its attractive simplicity complements any space. Available in natural oak, dark oak, and black pigmented walnut leg finishes.</p>
+
+							<h2>Technical Specification:</h2>
+							<p>MATERIALS: </p>
+								<div class="materialImage responsive-row ">
+									<div class="col-of-2">
+										<img src="img/leather.jpg" alt="leather">
+										<p>Leather</p>
+									</div>
+
+									<div class="col-of-2">
+											<img src="img/wood3.png" alt="velvet">
+										<p>Velvet Wood</p>
+									</div>
+								</div>
+
+							<p>COLOURS: </p>
+								<div class="chair1Colours responsive-row">
+									<div id="chair1Colour1" class="col-of-1"></div>
+								</div>
+							<div>
+								<p>DIMENSIONS: </p>	
+								<p id="dimValue">32.5" H | 17.5" W | 20.75" D | 18.25" seat H | 15.25" D</p>
+							</div>
+
+							<div>
+								<p><a class="button-view-3" href="customOrder.html">Customize Product</a></p>
+							</div>
+						</section>
+					</div>
+
+					<section class="recentView-box">
+						<div class="">
+							<p>Recent view: </p>
+						</div>
+						<section class="recentView responsive-row responsive-col">
+							<div class="col-of-3">
+								<a href="Chair1Page.html"><img src="img/chair6.jpg" alt="chair6"></a>
+								<p>wood dining chair</p>
+							</div>
+								
+							<div class="col-of-3">
+								<a href="Chair1Page.html"><img src="img/table1.jpg" alt="table1"></a>
+								<p>wood dinning table</p>
+							</div>
+								
+							<div class="col-of-3">
+								<a href="Chair1Page.html"><img src="img/chair4.png" alt="chair4"></a>
+								<p>wood dining chair</p>
+							</div>
+						</section>
+					</section>
+				</section>
+		</div>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+
+			
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+
+			function disableOther( button ) {
+				if( button !== 'showLeft' ) {
+					classie.toggle( showLeft, 'disabled' );
+				}
+			}
+		</script>
+	</body>
+
+</html>
