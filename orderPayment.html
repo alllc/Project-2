@@ -3,7 +3,7 @@
 <html lang="en">
 
 	<head>
-		<title>Log in</title>
+		<title>Payment</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -25,6 +25,7 @@
 		</nav>
 
 		<div>
+
 			<section class="main-nav-section">
 				<nav class="main-nav">
 					<div class="main-nav-logo">
@@ -35,10 +36,10 @@
 
 					<div class="main-nav-icon">
 						<a href="logIn.html">
-							<img src="icons/account.png" class="icon select" alt="person-icon">
+							<img src="icons/account.png" class="icon" alt="person-icon">
 						</a>
 						<a href="">
-							<img src="icons/shopping-cart.png" class="icon " alt="shopping-cart">
+							<img src="icons/shopping-cart.png" class="icon" alt="shopping-cart">
 						</a>
 					</div>
 
@@ -57,7 +58,7 @@
 								<a href="material.html" >Material</a>
 							</li>
 							<li>
-								<a href="service.html" >Service</a>
+								<a href="service.html" class="select">Service</a>
 							</li>
 							<li>
 								<a href="aboutUs.html" >About Us</a>
@@ -65,39 +66,18 @@
 						</ul>
 					</div>
 
-					<!-- side menu icons in mobile view -->
-					<div class="side-nav-icon">
-						<button id="showLeftPush">
-							<img src="icons/side-nav.png" class="icon" alt="menu-icon" >
-							</button>
-						<img src="icons/search.png" class="icon" alt="search-icon">
-					</div>
+						<!-- side menu icons in mobile view -->
+						<div class="side-nav-icon">
+							<button id="showLeftPush">
+								<img src="icons/side-nav.png" class="icon" alt="menu-icon" >
+								</button>
+							<img src="icons/search.png" class="icon" alt="search-icon">
+						</div>
 				</nav>
 			</section>
 			
 			<section class="body-content-section">
-				<div class="payment responsive-row responsive-col">
-
-						<section>
-							<img class="mainChairImage" src="img/circleTable2.png" alt="mainImage">			
-							<label>Quantity: </label>
-							<label>-</label>
-				    		<input placeholder="1">	
-				    		<label>+</label>
-				    		<a>Price: 199.99$</a>
-							<img class="mainChairImage" src="img/blackChair.png" alt="mainImage">
-							<label>Quantity: </label>
-							<label>-</label>
-				    		<input placeholder="1">	
-				    		<label>+</label>
-				    		<a>Price: 399.99$</a>
-				    		<p>Total Price: 599.98$</p>
-
-				    		<button type="submit" onclick="window.location.href='orderPayment2.html'">Pay Now</button>
-				    		<button class="cancelButton" onclick="window.location.href='index2.html'">Cancel</button>
-						</section>
-
-				</div>
+			
 			</section>
 		</div>
 		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->

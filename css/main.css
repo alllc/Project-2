@@ -433,20 +433,18 @@ div.tab {
 
 div.tab a{
 	display: block;
-    text-align: center;
+/*    text-align: center;*/
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 17px;
+    /*font-size: 17px;*/
    	text-decoration: none;
 }
 /* Style the links inside the tab */
 .process {
-	float: left;
 	color: #222;
 }
 
 .tablinks {
-    float: right;
     color: #333;
     background-color: rgb(114, 209, 181);
 }
@@ -477,7 +475,7 @@ div.tab a{
 }
 
 .customProduct {
-	height: 300px;
+	/*height: 300px;*/
 	border-style: solid;
 	border-width: 3px;
 	border-color: #ccc;
