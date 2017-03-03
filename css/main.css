@@ -337,4 +337,22 @@ button {
 	text-align: left;
 }
 
+/*services page*/
+
+.services img {
+	width: 80%;
+	height: auto;
+}
+
+.services div {
+	background-color: #ecf0f1;
+	margin: 1em 0 1em 0;
+	border-radius: 6px;
+}
+
+.services div:hover, .services div:focus {
+	background-color: #8BF0C8;
+	color: #fff;
+}
+
 
