@@ -76,28 +76,31 @@
 			</section>
 			
 			<section class="body-content-section">
-				<div class="payment responsive-row responsive-col">
+				<section class="steps">
+					<div id="step1-1" onclick="window.location.href='productSelection.html'"><a>1</a></div>
+					<div id="step1-2" onclick="window.location.href='productSelection2.html'"><a>2</a></div>
+					<div id="step1-3"><a>3</a></div>
+				</section>
 
-						<section>
-							<img class="mainChairImage" src="img/circleTable2.png" alt="mainImage">			
-							<label>Quantity: </label>
-							<label>-</label>
-				    		<input placeholder="1">	
-				    		<label>+</label>
-				    		<a>Price: 199.99$</a>
-							<img class="mainChairImage" src="img/blackChair.png" alt="mainImage">
-							<label>Quantity: </label>
-							<label>-</label>
-				    		<input placeholder="1">	
-				    		<label>+</label>
-				    		<a>Price: 399.99$</a>
-				    		<p>Total Price: 599.98$</p>
+				<form class="paymentForm">
+				  	<div class="container">
+				  		<p>Personal information</p>
+				   		<label><b>First Name: </b></label>
+				    	<input type="text" placeholder="First Name">
 
-				    		<button type="submit" onclick="window.location.href='orderPayment2.html'">Pay Now</button>
-				    		<button class="cancelButton" onclick="window.location.href='index2.html'">Cancel</button>
-						</section>
+				    	<label><b>Last Name: </b></label>
+				    	<input type="password" placeholder="Last Name">
 
-				</div>
+				    	<label><b>Email: </b></label>
+				    	<input type="password" placeholder="Last Name">
+
+
+				    	<label><b>Phone: </b></label>
+				    	<input type="password" placeholder="Last Name">
+						<a class="button-view" href="orderPayment.html">Back</a>
+				    	<a class="button-view" href="orderPayment3.html">Next</a>
+				  	</div>
+				</form>	
 			</section>
 		</div>
 		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->

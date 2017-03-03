@@ -76,28 +76,30 @@
 			</section>
 			
 			<section class="body-content-section">
-				<div class="payment responsive-row responsive-col">
+				<section class="steps">
+					<div id="step4-1" onclick="window.location.href='productSelection.html'"><a>1</a></div>
+					<div id="step4-2" onclick="window.location.href='productSelection2.html'"><a>2</a></div>
+					<div id="step4-3"><a>3</a></div>
+				</section>
 
-						<section>
-							<img class="mainChairImage" src="img/circleTable2.png" alt="mainImage">			
-							<label>Quantity: </label>
-							<label>-</label>
-				    		<input placeholder="1">	
-				    		<label>+</label>
-				    		<a>Price: 199.99$</a>
-							<img class="mainChairImage" src="img/blackChair.png" alt="mainImage">
-							<label>Quantity: </label>
-							<label>-</label>
-				    		<input placeholder="1">	
-				    		<label>+</label>
-				    		<a>Price: 399.99$</a>
-				    		<p>Total Price: 599.98$</p>
+				<form class="paymentForm">
+				  	<div class="container">
+				  		<p>Information summary:</p>
+				  		<p>Name: Tom Hacker</p>
+				  		<p>Email: tomhacker123@gmail.com</p>
+				  		<p>Phone: 778-888-8888</p>
+				  		<p>Address: 8888 University Dr, Burnaby, BC CANADA<p>
 
-				    		<button type="submit" onclick="window.location.href='orderPayment2.html'">Pay Now</button>
-				    		<button class="cancelButton" onclick="window.location.href='index2.html'">Cancel</button>
-						</section>
+				  		<p>Product name: Wood dinner chair</p>
+				  		<p>Quanlity: 1</p>
 
-				</div>
+				  		<p>Shipping time: around 1 week</p>
+
+				  		<p>Thank you to shopping with us!</p>
+
+				 		<button type="submit" onclick="window.location.href='index.html'">Complete</button>
+				  	</div>
+				</form>	
 			</section>
 		</div>
 		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->

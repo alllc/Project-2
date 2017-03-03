@@ -76,28 +76,43 @@
 			</section>
 			
 			<section class="body-content-section">
-				<div class="payment responsive-row responsive-col">
+				<section class="steps">
+					<div id="step3-1" onclick="window.location.href='productSelection.html'"><a>1</a></div>
+					<div id="step3-2" onclick="window.location.href='productSelection2.html'"><a>2</a></div>
+					<div id="step3-3"><a>3</a></div>
+				</section>
 
-						<section>
-							<img class="mainChairImage" src="img/circleTable2.png" alt="mainImage">			
-							<label>Quantity: </label>
-							<label>-</label>
-				    		<input placeholder="1">	
-				    		<label>+</label>
-				    		<a>Price: 199.99$</a>
-							<img class="mainChairImage" src="img/blackChair.png" alt="mainImage">
-							<label>Quantity: </label>
-							<label>-</label>
-				    		<input placeholder="1">	
-				    		<label>+</label>
-				    		<a>Price: 399.99$</a>
-				    		<p>Total Price: 599.98$</p>
+				<form class="paymentForm">
+				  	<div class="container">
+				  		<p>Card information</p>
+				  		<label><b>Type of card: </b></label>
+				  		<img src="icons/visa.png" alt="visa">
+				  		<img src="icons/mastercard.png" alt="master">
+				  		<img src="icons/paypal.png" alt="paypal">
+				  		<img src="icons/discover.png" alt="discover">
+				  		<img src="icons/AE.png" alt="AE">
+				  		<img src="icons/unionpay.png" alt="union">
 
-				    		<button type="submit" onclick="window.location.href='orderPayment2.html'">Pay Now</button>
-				    		<button class="cancelButton" onclick="window.location.href='index2.html'">Cancel</button>
-						</section>
+				   		<label><b>Number: </b></label>
+				    	<input type="text" placeholder="Card number">
 
-				</div>
+				    	<label><b>Name: </b></label>
+				    	<input type="password" placeholder="Name">
+
+				    	<label><b>Date: </b></label>
+				    	<input type="password" placeholder="Month">
+						<input type="password" placeholder="Years">
+
+				    	<label><b>CSV: </b></label>
+				    	<input type="password" placeholder="Last 3 digits">
+
+				    	<label><b>Bill address: Same with shipping address? </b></label>
+				    	<input type="checkbox" checked="checked">
+
+				    	<a class="button-view" href="orderPayment3.html">Back</a>
+				    	<a class="button-view" href="orderPayment5.html">Pay now</a>
+				  	</div>
+				</form>	
 			</section>
 		</div>
 		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->

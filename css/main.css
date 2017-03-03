@@ -420,6 +420,10 @@ a.select{
 #step3-2 {background-color: #8BCBC8;}
 #step3-3 {background-color: #aaa;}
 
+#step4-1 {background-color: #8BCBC8;}
+#step4-2 {background-color: #8BCBC8;}
+#step4-3 {background-color: #8BCBC8;}
+
 div.tab {
     overflow: hidden;
     margin-top: 2em;
@@ -477,4 +481,15 @@ div.tab a{
 	border-style: solid;
 	border-width: 3px;
 	border-color: #ccc;
+}
+
+.payment img {
+	width: 5%;
+	height: auto;
+}
+
+
+.paymentForm img{
+	width: 20%;
+	height: auto;
 }
