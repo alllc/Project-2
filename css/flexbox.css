@@ -52,6 +52,13 @@
 	box-sizing: border-box;
 }
 
+.col-of-1 {
+	flex-basis: 100%;
+	/*flex:1;*/
+	padding: 1em;
+	box-sizing: border-box;
+}
+
 .col-of-2 {
 	flex-basis: 50%;
 	/*flex:1;*/
