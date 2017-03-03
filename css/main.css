@@ -43,6 +43,16 @@ input[type=text], input[type=password] {
     color: #aaa;
 }
 
+button {
+    background-color: #8BCBC8;
+    color: white;
+    padding: 0.8em 1em;
+    margin: 0.5em 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
 /* Styling for the description */
 .desc{
   	font-size: 1rem;
@@ -63,7 +73,9 @@ input[type=text], input[type=password] {
 	width: 100px;
 	height: auto;
 }
-
+.side-nav-icon button{
+	width: auto;
+}
 
 /*
 	MAIN NAVIGATION
@@ -335,15 +347,7 @@ a.select{
 	padding: 1em;
 }
 
-button {
-    background-color: #8BCBC8;
-    color: white;
-    padding: 0.8em 1em;
-    margin: 0.5em 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
+
 
 .cancelButton {
 	background-color: rgba(236,23,105,0.3);
