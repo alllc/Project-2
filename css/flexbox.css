@@ -172,9 +172,14 @@
 .chair1Colours div {
 	margin: 0 0.2em 0 0;
 }
-
+.payment{
+	justify-content: flex-end;
+}
 .checkoutItem{
 	align-items: center;
+}
+.paymentButton{
+	justify-content: flex-end;
 }
 
 /*

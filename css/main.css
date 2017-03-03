@@ -199,6 +199,7 @@ a.select{
 
 
 .button-view {
+	margin:0.5em;
   display: inline-block;
   border: none;
   padding: 0.3em 0.5em;
@@ -330,6 +331,9 @@ a.select{
 /* product detail price + button follow left */
 .info-left {
 	text-align: left;
+}
+.info-right {
+	text-align: right;
 }
 /*Table page css*/
 
