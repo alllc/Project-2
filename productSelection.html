@@ -76,7 +76,127 @@
 			</section>
 			
 			<section class="body-content-section">
+				<div class="tab">
+					<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Chair')">Chair</a>
+					<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Table')">Table</a>
+					<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Cabinet')">Cabinet</a>
+				</div>
 
+				<div id="Chair" class="tabcontent">
+  					<section class="items responsive-row responsive-col">
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/whiteChair1.png" alt="chair1"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair6.jpg" alt="chair2"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/whiteChair3.png" alt="chair3"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair1.png" alt="chair4"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair2.png" alt="chair5"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair3.png" alt="chair6"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair4.png" alt="chair7"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair5.png" alt="chair8"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/whiteChair2.png" alt="chair9"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+
+						<div class="col-of-5">
+							<a href="Chair1Page.html"><img src="img/chair7.jpg" alt="chair10"></a>
+							<p>wood dining chair</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+					</section>
+
+					<section class="pageNums">
+						<a href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">Next</a>
+					</section>
+				</div>
+
+				<div id="Table" class="tabcontent">
+  					<section class="items responsive-row responsive-col">
+						<div class="col-of-5">
+							<a href="Table1Page.html"><img src="img/circleTable1.png" alt="table1"></a>
+							<p>wood dinning table</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Table1Page.html"><img src="img/circleTable2.png" alt="table2"></a>
+							<p>wood dining table</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Table1Page.html"><img src="img/table1.jpg" alt="table3"></a>
+							<p>wood coffee table</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Table1Page.html"><img src="img/table2.png" alt="table4"></a>
+							<p>wood coffee table</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+						<div class="col-of-5">
+							<a href="Table1Page.html"><img src="img/table3.png" alt="table5"></a>
+							<p>wood coffee table</p>
+							<p><a class="button-view" href="Chair1Page.html">View Detial</a></p>
+						</div>
+						
+					</section>
+
+					<section class="pageNums">
+						<a href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">Next</a>
+					</section>
+				</div>
+
+				<div id="Cabinet" class="tabcontent">
+  					<h1>Cabinet</h3>
+				</div>
 
 
 
@@ -102,6 +222,20 @@
 				if( button !== 'showLeft' ) {
 					classie.toggle( showLeft, 'disabled' );
 				}
+			}
+
+			function openCity(evt, cityName) {
+    			var i, tabcontent, tablinks;
+    			tabcontent = document.getElementsByClassName("tabcontent");
+    			for (i = 0; i < tabcontent.length; i++) {
+        			tabcontent[i].style.display = "none";
+    			}
+    			tablinks = document.getElementsByClassName("tablinks");
+    			for (i = 0; i < tablinks.length; i++) {
+        			tablinks[i].className = tablinks[i].className.replace(" active", "");
+    			}
+    			document.getElementById(cityName).style.display = "block";
+    			evt.currentTarget.className += " active";
 			}
 		</script>
 	</body>
