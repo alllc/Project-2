@@ -259,7 +259,7 @@ a.select{
 	height: auto;
 }
 
-.recentView {
+.recentView-box {
 	border-style: solid;
 	border-color: #ccc;
 	border-width: 1px;
@@ -270,7 +270,6 @@ a.select{
 	width: 50%;
 	height: auto;
 }
-
 
 .materialImage img {
 	width: 50%;
