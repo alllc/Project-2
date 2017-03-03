@@ -162,5 +162,12 @@
 	.responsive-col{
 		flex-direction: column;
 	}
-
+	.productsImage img{
+		width: 100%;
+		height: auto;
+	}
+	.productShow img{
+		width: 100%;
+		height: auto;
+	}
 }
