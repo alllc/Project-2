@@ -506,13 +506,14 @@ div.tab a{
 	min-width: 50%;
 }
 
+.paymentMethod img{
+	width: 20%;
+	height: auto;
+}
+
 .quantity {
 	width: 4em;
 }
 
-
-.paymentForm img{
-	width: 20%;
-}
 
 
