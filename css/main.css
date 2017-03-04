@@ -140,10 +140,14 @@ a.select{
 
 /* body content CONTENT*/
 .body-content-section{
-	max-width: 1024px;
-	margin: 0 auto;
+
+	margin: 5em auto 0 auto;
 	padding: 0 20px;
 	min-height: auto;
+}
+.narrow-with-content{
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 
@@ -343,10 +347,11 @@ a.select{
 	border-color: #ccc;
 	border-width: 1px;
 	margin-bottom: 1em;
+
 }
 
 .recentView img {
-	width: 50%;
+	width: 30%;
 }
 
 
