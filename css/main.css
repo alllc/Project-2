@@ -23,7 +23,7 @@ img {
 	margin: auto;
 }
 p{
-	/*color: rgb(150,150,150);*/
+	color: rgb(100,100,100);
 	text-align: center;
 	font-size: 0.9rem;
 }
@@ -60,23 +60,27 @@ button {
   	font-style: italic;
 }
 .para{
+	/*color: rgb(150,150,150);*/
   	font-size: 1rem;
   	text-align: left;
 }
 /* setting size for icons and logo */
 .icon{
 	width: 25px;
-	height: auto;
 	display: inline-block;
 }
 .logo{
 	width: 100px;
 	height: auto;
 }
-.side-nav-icon button{
-	width: auto;
-}
 
+/* paragraph alin left + right */
+.info-left {
+	text-align: left;
+}
+.info-right {
+	text-align: right;
+}
 /*
 	MAIN NAVIGATION
 */
@@ -91,7 +95,11 @@ button {
 	border-color: #b8d1c9;
 	background-color: white;
 	box-shadow: 3px 3px 16px #72d1b5;
-
+	position: fixed;
+	width: 100%;
+	z-index: 200;
+	top: 0;
+	left: 0;
 }
 /* position for logo */
 .main-nav-logo{
@@ -123,12 +131,14 @@ a.select{
 	text-decoration: underline;
 	text-shadow: 0px 6px 3px #666;
 }
-
 /*
-	Home page  
+	side navigation
 */
+.side-nav-icon button{
+	width: auto;
+}
 
-/*CONTENT*/
+/* body content CONTENT*/
 .body-content-section{
 	max-width: 1024px;
 	margin: 0 auto;
@@ -138,7 +148,7 @@ a.select{
 
 
 /*
-	Main Image
+	Main Image at index html
 */
 .mainImage{
 	width: 100%;
@@ -191,38 +201,38 @@ a.select{
 	right: 0;
 }
 
-
-/*Service intro*/
+/* Service intro */
 .serviceIntro img {
 	width: 30%;
 }
 
 
+
 .button-view {
 	margin:0.5em;
-  display: inline-block;
-  border: none;
-  padding: 0.3em 0.5em;
-  color: #FFF;
-  background-color: rgb(139,203,200);
-  border-radius: 0.25em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+ 	display: inline-block;
+  	border: none;
+  	padding: 0.3em 0.5em;
+  	color: #FFF;
+  	background-color: rgb(139,203,200);
+  	border-radius: 0.25em;
+  	text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
 }
 
 .button-view:hover, .button-nav:focus {
-  background-color: rgb(138,203,230);
+  	background-color: rgb(138,203,230);
 }
 
 .button-view-2 {
-  display: inline-block;
-  border: none;
-  padding: 0.2em 0.3em;
-  color: rgb(139,203,200);
-  font-size: 0.8em;
-  border-radius: 0.25em;
-  text-decoration: underline;
+  	display: inline-block;
+  	border: none;
+  	padding: 0.2em 0.3em;
+  	color: rgb(139,203,200);
+  	font-size: 0.8em;
+  	border-radius: 0.25em;
+  	text-decoration: underline;
 }
 
 .button-view-3 {
@@ -238,6 +248,19 @@ a.select{
 
 .button-view-3:hover, .button-nav-3:focus {
   background-color: #A8C7FF;
+}
+
+.cancelButton {
+	background-color: rgba(236,23,105,0.3);
+    color: #eee;
+    padding: 0.8em 1em;
+    margin-top: 0.5em;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 
 #homeImage2 {
@@ -292,14 +315,29 @@ a.select{
 
 .mainChairImage {
 	width: 100%;
-	height: auto;
 }
 
 .subChairImage {
 	width: 30%;
-	height: auto;
 }
 
+
+.materialImage img {
+	width: 50%;
+}
+
+.productsImage img{
+	width: auto;
+	height: 100px;
+}
+
+/* adding color to the product deteil page*/
+#chair1Colour1 {background: rgb(57, 41, 35);}
+
+/*.chair1Colours div{
+	height: 2em;
+}*/
+/* recent view section on product detail page */
 .recentView-box {
 	border-style: solid;
 	border-color: #ccc;
@@ -309,33 +347,8 @@ a.select{
 
 .recentView img {
 	width: 50%;
-	height: auto;
 }
 
-.materialImage img {
-	width: 50%;
-	height: auto;
-}
-
-.productsImage img{
-	width: auto;
-	height: 100px;
-}
-
-#chair1Colour1 {background: rgb(57, 41, 35);}
-
-.chair1Colours div{
-	height: 2em;
-}
-
-/* product detail price + button follow left */
-.info-left {
-	text-align: left;
-}
-.info-right {
-	text-align: right;
-}
-/*Table page css*/
 
 /*Login*/
 .loginForm {
@@ -347,31 +360,17 @@ a.select{
 
 .account {
 	max-width: 20%;
-	height: auto;
 	padding: 1em;
 }
 
 
 
-.cancelButton {
-	background-color: rgba(236,23,105,0.3);
-    color: #eee;
-    padding: 0.8em 1em;
-    margin-top: 0.5em;
-    border: none;
-    cursor: pointer;
-    width: 30%;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-}
 
 
 /*services page*/
 
 .services img {
 	width: 80%;
-	height: auto;
 }
 
 .services div {
@@ -391,6 +390,7 @@ a.select{
 /*
 	Adding tag on product selection
 */
+
 /* Style the tab */
 
 .steps div {
@@ -427,7 +427,7 @@ a.select{
 
 div.tab {
     overflow: hidden;
-    margin-top: 2em;
+    /*margin-top: 2em;*/
     border-radius: 5px;
     background-color: rgba(114, 209, 181, 0.6);
 }
@@ -470,11 +470,16 @@ div.tab a{
     /*border: 1px solid #ccc;*/
     border-top: none;
 }
+/* position of image on custom order page*/
+/*.customImg{
+	margin-top: 7em;
+}*/
 
-.size {
+
+/*.size {
 	padding: 2em;
 }
-
+*/
 .customProduct {
 	/*height: 300px;*/
 	border-style: solid;
@@ -491,10 +496,9 @@ div.tab a{
 	border-color: #ccc;
 }
 
+/* check out page image*/
 .payment img {
 	min-width: 50%;
-	height: auto;
-	display: block;
 }
 
 .quantity {
@@ -502,16 +506,8 @@ div.tab a{
 }
 
 
-/*.price, .price p{
-	text-align: right;
-}*/
-.customImg{
-	margin-top: 7em;
-}
-
 .paymentForm img{
 	width: 20%;
-	height: auto;
 }
 
 

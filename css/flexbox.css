@@ -52,6 +52,7 @@
 	box-sizing: border-box;
 }
 
+
 .col-of-1 {
 	flex-basis: 100%;
 	/*flex:1;*/
@@ -123,21 +124,6 @@
 }
 
 
-.steps {
-  	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 1em; 
-}
-
-/*.col-of-6{
-	flex:1;
-	padding: 0.3em;
-	box-sizing: border-box;
-	flex-basis: 16%;
-}*/
 /* product image on project page */
 .productsImage{
 	justify-content: flex-start;
@@ -169,15 +155,23 @@
 	padding: 0;
 }
 
-.chair1Colours div {
+/*.chair1Colours div {
 	margin: 0 0.2em 0 0;
 }
+*/
+/* step tage shows on top of the custom order pages and payment pages*/
+.steps {
+    justify-content: center;
+}
+
 .payment{
 	justify-content: flex-end;
 }
+
 .checkoutItem{
 	align-items: center;
 }
+
 .paymentButton{
 	justify-content: flex-end;
 }
