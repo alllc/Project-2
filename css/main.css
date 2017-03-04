@@ -496,6 +496,10 @@ div.tab a{
 	display: block;
 }
 
+.quantity {
+	width: 4em;
+}
+
 
 /*.price, .price p{
 	text-align: right;
