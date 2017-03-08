@@ -157,7 +157,7 @@ a.select{
 .mainImage{
 	width: 100%;
 	display: block;
-	margin: 5em auto 5em auto;
+	margin: 5em auto 1em auto;
 	box-sizing: border-box;
 	height: auto;	
 	position: relative;
@@ -205,9 +205,10 @@ a.select{
 	right: 0;
 }
 
-/* Service intro */
+/* Service intro on index html*/
 .serviceIntro img {
 	width: 30%;
+	margin-top: 3em;
 }
 
 
@@ -267,26 +268,8 @@ a.select{
     display:block;
 }
 
-#homeImage2 {
-	width: 100%;
-	height: auto;
-}
 
-#homeImage1 {
-	width: 75%;
-	height: auto;
-}
 
-#homeImage5 {
-	width: 75%;
-	height: auto;
-	margin: 10px auto 0 auto;
-}
-
-#homeImage4{
-	width: 75%;
-	height: auto;
-}
 
 
 .items .button-view {

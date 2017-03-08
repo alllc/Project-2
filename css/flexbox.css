@@ -110,7 +110,10 @@
 	flex-basis: 70%;
 	box-sizing: border-box;
 }
-
+.col-75{
+	flex-basis:75%;
+	justify-content: center;
+}
 
 .tab{
 	flex: 1;
