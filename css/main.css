@@ -361,19 +361,19 @@ a.select{
 	width: 80%;
 }
 
-.services div {
+.services img {
 	background-color: #ecf0f1;
-	margin: 1em 0 1em 0;
+	/*margin: 1em 0 1em 0;*/
 	border-radius: 6px;
-	cursor: pointer;
-	 -webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
+	/*cursor: pointer;*/
+/*	 -webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;*/
 }
 
-.services div:hover, .services div:focus {
+/*.services div:hover, .services div:focus {
 	background-color: #8BF0C8;
 	color: #fff;
-}
+}*/
 
 /*
 	Adding tag on product selection
