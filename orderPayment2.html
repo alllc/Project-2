@@ -77,14 +77,23 @@
 			
 			<section class="body-content-section">
 				<section class="steps responsive-row">
-					<div id="step1-1" onclick="window.location.href='orderPayment2.html'"><a>1</a></div>
-					<div id="step1-2"><a>2</a></div>
-					<div id="step1-3"><a>3</a></div>
+					<div id="step1-1" onclick="window.location.href='orderPayment2.html'">
+						<a>1</a>
+						<p>Customer Info</p>
+					</div>
+					<div id="step1-2">
+						<a>2</a>
+						<p>Card Info</p>
+					</div>
+					<div id="step1-3">
+						<a>3</a>
+						<p>Order Info</p>
+					</div>
 				</section>
 
-				<form class="paymentForm narrow-with-content">
-				  	<div class="container">
-				  		<p>Personal information</p>
+				<form class="paymentForm narrow-with-content responsive-col responsive-row">
+				  	<div class="container col-of-2">
+				  		<h1>Personal information</h1>
 				   		<label><b>First Name: </b></label>
 				    	<input type="text" placeholder="First Name">
 
@@ -97,16 +106,36 @@
 
 				    	<label><b>Phone: </b></label>
 				    	<input type="password" placeholder="Last Name">
-				    	<div class="col-of-1 responsive-row paymentButton">
+				    	
+				  	</div>
+				  	<div class="container col-of-2">
+				  		<h1>Shipping Information</h1>
+				   		<label><b>Street: </b></label>
+				    	<input type="text" placeholder="Street">
+
+				    	<label><b>City: </b></label>
+				    	<input type="password" placeholder="City">
+
+				    	<label><b>Province: </b></label>
+				    	<input type="password" placeholder="Province">
+
+
+				    	<label><b>Country: </b></label>
+				    	<input type="password" placeholder="Country">
+
+				    	<label><b>Additonal message: </b></label>
+				    	<input type="password" placeholder="Last Name">
+				  	</div>
+				  	<div class="col-of-1 responsive-row paymentButton">
 				    		<div>
 								<a class="button-view" href="orderPayment.html">Back</a>
 							</div>
 							<div>
 				    			<a class="button-view" href="orderPayment3.html">Next</a>
 				    		</div>
-				    	</div>
-				  	</div>
-				</form>	
+				    </div>
+				</form>
+
 			</section>
 		</div>
 		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->

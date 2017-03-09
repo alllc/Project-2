@@ -82,33 +82,64 @@
 					<div id="step2-3"><a>3</a></div>
 				</section>
 
-				<form class="paymentForm narrow-with-content">
-				  	<div class="container">
-				  		<p>Address</p>
-				   		<label><b>Street: </b></label>
-				    	<input type="text" placeholder="Street">
+				<form class="paymentForm narrow-with-content responsive-col responsive-row">
+				  	<div class="container col-of-2">
+				  		<h1>Card information</h2>
 
-				    	<label><b>City: </b></label>
-				    	<input type="password" placeholder="City">
+				   		<label><b>Number: </b></label>
+				    	<input type="text" placeholder="Card number">
 
-				    	<label><b>Province: </b></label>
-				    	<input type="password" placeholder="Province">
+				    	<label><b>Name: </b></label>
+				    	<input type="password" placeholder="Name">
+				    	<div class="responsive-row padnone">
+				    		<div class="col-of-3">
+				    			<label><b>Date: </b></label>
+				    		</div>
+				    		<div class="col-of-3">
+				    			<label><b>CSV: </b></label>
+				    		</div>
+				    	</div>
+						<div class="responsive-row padnone">
+				    			<div class="col-of-3"> 
+				    				<input type="password" placeholder="Month">
+				    			</div>
+				    			<div class="col-of-3">
+									<input type="password" placeholder="Years">
+								</div>
+								<div class="col-of-3">
+				    				<input type="password" placeholder="Last 3 digits">
+				    			</div>
+				    	</div>
 
+				    	
 
-				    	<label><b>Country: </b></label>
-				    	<input type="password" placeholder="Country">
+				    	<label><b>Bill address: Same with shipping address? </b></label>
+				    	<input type="checkbox" checked="checked">
+				  	</div>
+				  	<div class="col-of-2">
+				  		<h1>Information summary:</h1>
+				  		<p class="info-left">Name: Tom Hacker</p>
+				  		<p class="info-left">Email: tomhacker123@gmail.com</p>
+				  		<p class="info-left">Phone: 778-888-8888</p>
+				  		<p class="info-left">Address: 8888 University Dr, Burnaby, BC CANADA<p>
 
-				    	<label><b>Additonal message: </b></label>
-				    	<input type="password" placeholder="Last Name">
-				    	<div class="col-of-1 responsive-row paymentButton">
+				  		<p class="info-left">Product name: Wood dinner chair</p>
+				  		<p class="info-left">Quanlity: 1</p>
+
+				  		<p class="info-left">Shipping time: around 1 week</p>
+
+				  		<p class="info-left">Thank you to shopping with us!</p>
+
+				 		<!-- <button onclick="window.location.href='index.html'">Complete</button> -->
+				  	</div>
+				  	<div class="col-of-1 responsive-row paymentButton">
 				    		<div>
 								<a class="button-view" href="orderPayment2.html">Back</a>
 							</div>
 							<div>
-				    			<a class="button-view" href="orderPayment4.html">Next</a>
+				    			<a class="button-view" href="orderPayment4.html">Place Order</a>
 				    		</div>
-				    	</div>
-				  	</div>
+				    	</div>	
 				</form>	
 			</section>
 		</div>
