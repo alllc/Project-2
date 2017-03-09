@@ -76,30 +76,40 @@
 			</section>
 			
 			<section class="body-content-section">
+				
 				<section class="steps responsive-row">
-					<div id="step3-1" onclick="window.location.href='orderPayment2.html'"><a>1</a></div>
-					<div id="step3-2" onclick="window.location.href='orderPayment3.html'"><a>2</a></div>
-					<div id="step3-3" onclick="window.location.href='orderPayment4.html'"><a>3</a></div>
+					<div class="col-of-3 steps">
+						<div class="stepNum" id="step3-1" onclick="window.location.href='orderPayment2.html'">
+							<a>1</a>
+						</div>
+						<div>
+							<p>Customer Info</p>
+						</div>
+					</div>
+					<div class="col-of-3 steps">
+						<div class="stepNum" id="step3-2" onclick="window.location.href='orderPayment3.html'">
+							<a>2</a>	
+						</div>
+						<div>
+							<p>Card Info</p>
+						</div>
+					</div>
+					<div class="col-of-3 steps">
+						<div class="stepNum" id="step3-3" onclick="window.location.href='orderPayment4.html'">
+							<a>3</a>
+						</div>
+						<div>
+							<p>Order Info</p>
+						</div>
+					</div>
 				</section>
-
 				<form class="paymentForm narrow-with-content">
 				  	<div class="container">
-				  		<p>Card information</p>
+				  		<h1>Congratulation!</h1>
 
-				   		<label><b>Number: </b></label>
-				    	<input type="text" placeholder="Card number">
-
-				    	<label><b>Name: </b></label>
-				    	<input type="password" placeholder="Name">
-
-				    	<label><b>Date: </b></label>
-				    	<input type="password" placeholder="Month">
-						<input type="password" placeholder="Years">
-
-				    	<label><b>CSV: </b></label>
-				    	<input type="password" placeholder="Last 3 digits">
-
-				    	<label><b>Bill address: Same with shipping address? </b></label>
+				   		<p>
+				   			Your order has been placed. Your order number is #8052543. 
+				   		</p>
 				    	<input type="checkbox" checked="checked">
 				    	<div class="col-of-1 responsive-row paymentButton">
 				    		<div>

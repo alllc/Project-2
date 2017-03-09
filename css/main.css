@@ -381,11 +381,11 @@ a.select{
 
 /* Style the tab */
 
-.steps div {
-	width: 22px;
+.stepNum {
+	/*width: 22px;*/
 	height: 22px;
 	border-radius: 12px;
-	margin: 1em 1em 0 1em; 
+	/*margin: 1em 1em 0 1em; */
 	text-align: center;
 	padding: 2px;
 }
