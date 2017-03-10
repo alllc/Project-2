@@ -531,6 +531,22 @@ div.tab a{
 	width: 4em;
 }
 
+.account-order {
+	width: 80%;
+}
+
+.searchOrder input {
+	width: 25%;
+	font-size: 0.5em;
+}
+
+.searchOrder img {
+	width: 3%;
+	height: 3%;
+	display: inline;
+	margin: auto 0;
+}
+
 
 
 
