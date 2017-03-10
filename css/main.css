@@ -220,8 +220,7 @@ a.select{
 }
 
 
-
-.button-view {
+.button-view-small {
 	margin:0.5em;
  	display: inline-block;
   	border: none;
@@ -234,11 +233,12 @@ a.select{
   	transition: background-color 0.5s ease-out;
 }
 
-.button-view:hover, .button-nav:focus {
-  	background-color: rgb(138,203,230);
+.button-view-small:hover, .button-view-small:focus {
+  	background-color: #A8C7FF;
 }
 
-.button-view-2 {
+
+.button-wishList {
   	display: inline-block;
   	border: none;
   	padding: 0.2em 0.3em;
@@ -248,22 +248,22 @@ a.select{
   	text-decoration: underline;
 }
 
-.button-view-3 {
+.button-view-large {
   display: inline-block;
   border: none;
   padding: 0.8em 1.2em;
   color: #fff;
-  background-color: #ECC79C;
+  background-color: rgb(139,203,200);
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
-.button-view-3:hover, .button-nav-3:focus {
+.button-view-large:hover, .button-view-large:focus {
   background-color: #A8C7FF;
 }
 
-.cancelButton {
+.button-cancel {
 	background-color: rgba(236,23,105,0.3);
     color: #eee;
     padding: 0.8em 1em;
@@ -276,8 +276,14 @@ a.select{
     display:block;
 }
 
-
-
+.button-checkout {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+     -webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
 
 
 .items .button-view {
@@ -417,13 +423,23 @@ a.select{
 
 #step1-1 {background-color: #aaa;}
 #step1-2 {background-color: #eee;}
+#step1-3 {background-color: #eee;}
+
+#step2-1 {background-color: #eee;}
+#step2-2 {background-color: #aaa;}
+#step2-3 {background-color: #eee;}
+
+
+#step3-1 {background-color: #eee;}
+#step3-2 {background-color: #eee;}
+#step3-3 {background-color: #aaa;}
 
 
 div.tab {
     overflow: hidden;
     /*margin-top: 2em;*/
     border-radius: 5px;
-    background-color: rgba(114, 209, 181, 0.6);
+    background-color: rgba(139,203,200,0.5);
 }
 
 div.tab a{
@@ -436,12 +452,12 @@ div.tab a{
 }
 /* Style the links inside the tab */
 .process {
-	color: #222;
+	color: #333;
 }
 
 .tablinks {
     color: #333;
-    background-color: rgb(114, 209, 181);
+    background-color: rgb(139,203,200);
 }
 
 /* Change background color of links on hover */
@@ -470,10 +486,11 @@ div.tab a{
 }*/
 
 
-/*.size {
+.size {
 	padding: 2em;
 }
-*/
+
+
 .customProduct {
 	/*height: 300px;*/
 	border-style: solid;
