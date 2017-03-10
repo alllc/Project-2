@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/style-sheet.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -180,56 +181,50 @@
             		<p class="info-left">.main-nav</p>
           
           	<h3>Sample code:</h3>
-            	<code>&lt;ul class="main-nav"&gt;&lt;li &gt;&lt;a href="#" class="button-nav"&gt;Default Main one&lt;/a&gt;&lt;/li &gt;&lt;li &gt;&lt;a href="#" class="button-nav"&gt;Default Main two&lt;/a&gt;&lt;/li &gt;&lt;li &gt;&lt;a href="#" class="button-nav"&gt;Default Main three&lt;/a&gt;&lt;/li &gt;&lt;/ul&gt;</code>
+            	<code>
+              &lt;section class="main-nav-section"&gt;<br>
+              &lt;nav class="main-nav"&gt;<br>
+              &lt;div class="main-nav-direction"&gt;<br>
+              &lt;ul&gt;<br>
+              &lt;li &gt;&lt;a href="#" class="select"&gt;Home&lt;/a&gt;&lt;/li &gt;<br>
+              &lt;li &gt;&lt;a href="#" &gt;Product&lt;/a&gt;&lt;/li &gt;<br>
+              &lt;li &gt;&lt;a href="#" &gt;Custom Order&lt;/a&gt;&lt;/li &gt;<br>
+              &lt;li &gt;&lt;a href="#" &gt;Material&lt;/a&gt;&lt;/li &gt;<br>
+              &lt;li &gt;&lt;a href="#" &gt;Service&lt;/a&gt;&lt;/li &gt;<br>
+              &lt;li &gt;&lt;a href="#" &gt;About Us&lt;/a&gt;&lt;/li &gt;<br>
+              &lt;/ul&gt;</br>
+              &lt;/div&gt;<br>
+              &lt;/nav&gt;<br>
+              &lt;/section&gt;<br>
+              </code>
 
           	<h3>Rendered element:</h3>
-              <nav class="main-nav">
-                <div class="main-nav-logo">
-                  <a href="index.html">
-                    <img src="icons/logo-icon.png" class="logo" alt="logo-icon">
-                  </a>
-                </div>
-
-                <div class="main-nav-icon">
-                  <a href="logIn.html">
-                    <img src="icons/account.png" class="icon" alt="person-icon">
-                  </a>
-                  <a href="">
-                    <img src="icons/shopping-cart.png" class="icon" alt="shopping-cart">
-                  </a>
-                </div>
-
-                <div class="main-nav-direction">
-                  <ul>
-                    <li>
-                      <a href="index.html" class="select">Home</a>
-                    </li>
-                    <li>
-                      <a href="product.html" >Product</a>
-                    </li>
-                    <li>
-                      <a href="customOrder.html" >Custom Order</a>
-                    </li>
-                    <li>
-                      <a href="material.html" >Material</a>
-                    </li>
-                    <li>
-                      <a href="service.html" >Service</a>
-                    </li>
-                    <li>
-                      <a href="aboutUs.html" >About Us</a>
-                    </li>
-                  </ul>
-                </div>
-
-                <!-- side menu icons in mobile view -->
-                <div class="side-nav-icon">
-                  <button id="showLeftPush">
-                    <img src="icons/side-nav.png" class="icon" alt="menu-icon" >
-                    </button>
-                  <img src="icons/search.png" class="icon" alt="search-icon">
-                </div>
-              </nav>
+              <section class="main-nav-section">
+                <nav class="main-nav">
+                  <div class="main-nav-direction">
+                    <ul>
+                      <li>
+                        <a href="#" class="select">Home</a>
+                      </li>
+                      <li>
+                        <a href="#" >Product</a>
+                      </li>
+                      <li>
+                        <a href="#" >Custom Order</a>
+                      </li>
+                      <li>
+                        <a href="#" >Material</a>
+                      </li>
+                      <li>
+                        <a href="#" >Service</a>
+                      </li>
+                      <li>
+                        <a href="#" >About Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </section>
       		</section>
 
       		<section>
@@ -241,13 +236,10 @@
                 <p class="info-left">#cbp-spmenu-s1</p>
           
           		<h3>Sample code:</h3>
-            		<code>&lt;nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1"&gt;&lt;a &gt;Default Main one&lt;/a &gt;&lt;a &gt;Default Main two&lt;/a &gt;&lt;a &gt;Default Main three&lt;/a &gt;&lt;a &gt;Default Main four&lt;/a &gt;&lt;/nav&gt;</code>
+            		<code>&lt;nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1"&gt;<br>&lt;a &gt;Default Main one&lt;/a &gt;<br>&lt;a &gt;Default Main two&lt;/a &gt;<br>&lt;a &gt;Default Main three&lt;/a&gt;<br>&lt;a &gt;Default Main four&lt;/a &gt;<br>&lt;/nav&gt;</code>
 
           		<h3>Rendered element:</h3>
                   <h1>Menu</h1>
-                  <button id="showLeftPush">
-                    <img src="icons/side-nav.png" class="icon" alt="menu-icon" >
-                  </button>
               		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
                       <a href="#" class="select">Default Main one</a>
                       <a href="#" >Default Main two</a>
@@ -256,19 +248,56 @@
                   </nav>
       		</section>
 
-          <section>
+          <section >
             <h2>Grid structure</h2>
               <h3>CSS selector:</h3>
-              <p class="info-left">.col-of-4</p>
               <p class="info-left">.responsive-row</p>
               <p class="info-left">.responsive-col</p>
 
+              <!-- different grid style -->
+              <p class="info-left">.col-of-1</p>
+              <p class="info-left">.col-of-2</p>
+              <p class="info-left">.col-of-3</p>
+              <p class="info-left">.col-of-4</p>
+              <p class="info-left">.col-of-5</p>
 
             <h3>Sample code:</h3>
-            <code>&lt;div class="col-of-4"&gt;&lt;/div&gt;</code>
+            <code>&lt;div class="col-of-1"&gt;&lt;/div&gt;</code><br>
+            <code>&lt;div class="col-of-2"&gt;&lt;/div&gt;</code><br>
+            <code>&lt;div class="col-of-3"&gt;&lt;/div&gt;</code><br>
+            <code>&lt;div class="col-of-4"&gt;&lt;/div&gt;</code><br>
+            <code>&lt;div class="col-of-5"&gt;&lt;/div&gt;</code><br>
 
             <h3>Rendered element:</h3>
-            <div class="responsive-row responsive-col">
+            <p>Adding borders to show the columns</p>
+            <div class="responsive-row responsive-col centerview">
+              <div class="col-of-1">  
+                <a class="button-nav" href="#">Default Main one</a>
+              </div>
+            </div>
+
+            <div class="responsive-row responsive-col centerview">
+              <div class="col-of-2">  
+                <a class="button-nav" href="#">Default Main one</a>
+              </div>
+              <div class="col-of-2">  
+                 <a class="button-nav" href="#">Default Main two</a>
+               </div>
+            </div>
+
+            <div class="responsive-row responsive-col centerview">
+              <div class="col-of-3">  
+                <a class="button-nav" href="#">Default Main one</a>
+              </div>
+              <div class="col-of-3">  
+                 <a class="button-nav" href="#">Default Main two</a>
+               </div>
+               <div class="col-of-3">  
+                 <a class="button-nav" href="#">Default Main three</a>
+               </div>
+            </div>
+
+            <div class="responsive-row responsive-col centerview">
               <div class="col-of-4">  
                 <a class="button-nav" href="#">Default Main one</a>
               </div>
@@ -279,6 +308,24 @@
                  <a class="button-nav" href="#">Default Main three</a>
                </div>
                <div class="col-of-4">  
+                  <a class="button-nav" href="#">Default Main four</a>
+               </div>
+            </div>
+
+            <div class="responsive-row responsive-col centerview">
+              <div class="col-of-5">  
+                <a class="button-nav" href="#">Default Main one</a>
+              </div>
+              <div class="col-of-5">  
+                 <a class="button-nav" href="#">Default Main two</a>
+               </div>
+               <div class="col-of-5">  
+                 <a class="button-nav" href="#">Default Main three</a>
+               </div>
+               <div class="col-of-5">  
+                  <a class="button-nav" href="#">Default Main four</a>
+               </div>
+               <div class="col-of-5">  
                   <a class="button-nav" href="#">Default Main four</a>
                </div>
             </div>

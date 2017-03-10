@@ -63,6 +63,15 @@ section code {
 }
 
 /* Styling for the submit button */
+button {
+    background-color: #8BCBC8;
+    color: white;
+    padding: 0.8em 1em;
+    margin: 0.5em 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
 /*.button-submit {
   display: inline-block;
   border: none;
@@ -79,10 +88,6 @@ section code {
   background-color: rgb(180,137,69);
 }*/
 
-form {
-    border: 3px solid #eee;
-    padding: 2em;
-}
 input[type=text], input[type=password] {
     width:  100%;
     padding: 1em 1.5em;
@@ -138,41 +143,73 @@ h3{
 */
 
 /* Styling for the main navigation */
-.main-nav{
-  list-style-type: none;
-}
-.main-nav li{
-  float: left;
-  padding: 0 2rem;
-}
-/* Styling for the side navigation */
-.side-nav{
-  list-style-type: none;
-}
-.side-nav li{
-  padding: 0.5rem 0;
+.main-nav a{
+  text-decoration: none;
 }
 
-[class^='grid-col-'] {
-  float: left;
+/* adding border to main nav*/
+.main-nav-section{
+  border-bottom: 1px solid;
+  border-color: #b8d1c9;
+  background-color: white;
+  box-shadow: 3px 3px 16px #72d1b5;
 }
 
-.grid-col-1of4 {
-  width: 24%;
+.main-nav-direction ul{
+  list-style: none;
+}
+.main-nav-direction li{
+  font-size: 1rem;
+  text-align: center;
+  line-height: 30px;
 }
 
-.grid-row::after {
-  content: "";
+/* editing main nav and side nav link */
+.main-nav-direction a, .cbp-spmenu a{
   display: block;
-  clear: both;
+  color: rgb(139,203,200);
+  text-decoration: none;
 }
 
-@media (max-width: 30em) {
-  .grid-col-1of4 {
-    width: 100%;
-  }
+.main-nav-direction a:hover,.main-nav-direction a:focus, .cbp-spmenu a:hover, .cbp-spmenu a:focus {
+  text-decoration: none;
+  color: rgb(236,199,12);
+}
+a.select{
+  color: #666;
+  text-decoration: underline;
+  text-shadow: 0px 6px 3px #666;
 }
 
+/* Styling for the side navigation */
+#showLeftPush{
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  background-color: white;
+  outline:none;
+}
+.cbp-spmenu {
+  background: white;
+
+  border-right: 1px solid #666;
+}
+
+.cbp-spmenu h1 {
+  color: #666;
+  padding: 10px;
+  padding-left: 1em;
+  margin: 0;
+  font-weight: 300;
+  background: white;
+
+}
+
+/* Grid structure */
+/* link to flex box css*/
+[class^='col-of'] {
+  border:1px solid;
+}
 
 
 [id^='colour'] {
