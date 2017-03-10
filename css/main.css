@@ -2,6 +2,7 @@
 body {
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
+
 /* Styling for the heading */
 h1{
  	font-size: 1.5rem;
@@ -144,6 +145,9 @@ a.select{
 	box-shadow: 3px 3px 16px #72d1b5;
 	display: flex;
 	flex-direction: row;
+	/*position:absolute;*/
+	bottom:0;
+	left:0;
 }
 
 /* body content CONTENT*/
@@ -286,10 +290,7 @@ a.select{
 }
 
 
-.items .button-view {
-	opacity: 0.5;
-	
-}
+
 
 
 .pageNums {

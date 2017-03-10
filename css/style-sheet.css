@@ -32,7 +32,7 @@ section code {
 */
 
 /* Styling for the navigation button */
-.button-view {
+.button-view-small {
   margin:0.5em;
   display: inline-block;
     border: none;
@@ -45,9 +45,58 @@ section code {
     transition: background-color 0.5s ease-out;
 }
 
-.button-view:hover, .button-nav:focus {
-    background-color: rgb(138,203,230);
+.button-view-small:hover, .button-view-small:focus {
+    background-color: #A8C7FF;
 }
+
+
+.button-wishList {
+    display: inline-block;
+    border: none;
+    padding: 0.2em 0.3em;
+    color: rgb(139,203,200);
+    font-size: 0.8em;
+    border-radius: 0.25em;
+    text-decoration: underline;
+}
+
+.button-view-large {
+  display: inline-block;
+  border: none;
+  padding: 0.8em 1.2em;
+  color: #fff;
+  background-color: rgb(139,203,200);
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-view-large:hover, .button-view-large:focus {
+  background-color: #A8C7FF;
+}
+
+.button-cancel {
+  background-color: rgba(236,23,105,0.3);
+    color: #eee;
+    padding: 0.8em 1em;
+    margin-top: 0.5em;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.button-checkout {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+     -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+/* Intext link */
 
 .intext-link {
   display: inline-block;
