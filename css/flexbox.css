@@ -147,6 +147,7 @@
 }
 .item-name{
 	height: 2em;
+	padding-bottom: 0.5em;
 }
 
 /*flexbox for chair1 page*/
