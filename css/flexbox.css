@@ -221,9 +221,8 @@
 	.responsive-col{
 		flex-direction: column;
 	}
-	.productsImage img{
-		width: 100%;
-		height: auto;
+	.productsImage {
+		display: none;
 	}
 	.productShow img{
 		width: 100%;
