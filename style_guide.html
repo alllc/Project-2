@@ -3,8 +3,11 @@
     <head>
 		<title>Style Guide</title>
 		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/style-sheet.css" rel="stylesheet">
-
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/side-nav.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -34,20 +37,20 @@
 	        <h2>Navigation Button</h2>
 
 	         	<h3>CSS selector:</h3>
-	            	<p>.button-nav</p>
+	            	<p class="info-left">.button-view</p>
 
 	         	<h3>Sample code:</h3>
-	           		<code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+	           		<code>&lt;a href="#" class="button-view "&gt;Default Button&lt;/a&gt;</code>
 
 	        	<h3>Rendered element:</h3>
-	           		<a class="button-nav" href="#">Default Button</a>
+	           		<a class="button-view" href="#">Default Button</a>
 	        </section>
 
 			<!-- Default in-text link styling section -->
 	        <section>
        		<h2>In-text link</h2>
           		<h3>CSS selector:</h3>
-           			<p>.intext-link</p>
+           			<p class="info-left">.intext-link</p>
 
           		<h3>Sample code:</h3>
            			<code>&lt;a href="#" class="intext-link"&gt;Default Button&lt;/a&gt;</code>
@@ -60,7 +63,7 @@
       		<section>
         	<h2>Submit/Reset Buttons</h2>
          		<h3>CSS selector:</h3>
-            		<p>.button-submit</p>
+            		<p class="info-left">.button-submit</p>
 
           		<h3>Sample code:</h3>
             		<code>&lt;button type="button" class="button-submit"&gt;Default Button&lt;/a&gt;</code>
@@ -74,7 +77,7 @@
 
        		<h2>Text Input Field</h2>
          		<h3>CSS selector:</h3>
-            		<p>.input-text</p>
+            		<p class="info-left">.input-text</p>
 
           		<h3>Sample code:</h3>
             		<code>&lt;form action="#"&gt;Default Input Field: &lt;input type="text" name="FirstName" value="Default" class="input-text"&gt;&lt;/form&gt;</code>
@@ -97,9 +100,9 @@
     		<section>
        		<h2>Headings</h2>
           		<h3>CSS selector:</h3>
-            		<p>.h1</p>
-            		<p>.h2</p>
-            		<p>.h3</p>
+            		<p class="info-left">.h1</p>
+            		<p class="info-left">.h2</p>
+            		<p class="info-left">.h3</p>
           		<h3>Sample code:</h3>
             		<code>&lt;h1 class="h1"&gt;Heading1&lt;/h1&gt;</code>
             		<code>&lt;h2&gt;Heading2&lt;/h2&gt;</code>
@@ -114,7 +117,7 @@
       		<section>
         	<h2>Paragraphs</h2>
           		<h3>CSS selector:</h3>
-            		<p>.para</p>
+            		<p class="info-left">.para</p>
           
           		<h3>Sample code:</h3>
            			<code>&lt;p class="para"&gt;So by colonel hearted ferrars. Draw from upon here gone add one. He in sportsman household otherwise it perceived instantly. Is inquiry no he several excited am. Called though excuse length ye needed it he having. Whatever throwing we on resolved entrance together graceful. Mrs assured add private married removed believe did she. &lt;/p&gt;</code>
@@ -127,7 +130,7 @@
       		<section>
         	<h2>Description</h2>
           		<h3>CSS selector:</h3>
-            		<p>.desc</p>
+            		<p class="info-left">.desc</p>
           
           		<h3>Sample code:</h3>
            			<code>&lt;p class="desc"&gt;So by colonel hearted ferrars. Draw from upon here gone add one. He in sportsman household otherwise it perceived instantly. Is inquiry no he several excited am. Called though excuse length ye needed it he having. Whatever throwing we on resolved entrance together graceful. Mrs assured add private married removed believe did she. &lt;/p&gt;</code>
@@ -140,7 +143,7 @@
       		<section>
         	<h2>Bulleted Lists</h2>
           		<h3>CSS selector:</h3>
-            		<p>.list-bullet</p>
+            		<p class="info-left">.list-bullet</p>
           
           		<h3>Sample code:</h3>
             		<code>&lt;ul class="list-bullet"&gt;&lt;li &gt;Default list&lt;/li &gt;&lt;/ul&gt;</code>
@@ -156,7 +159,7 @@
       		<section>
         	<h2>Numbered Lists</h2>
            		<h3>CSS selector:</h3>
-            		<p>.list-num</p>
+            		<p class="info-left">.list-num</p>
           
           		<h3>Sample code:</h3>
             		<code>&lt;ol class="list-num"&gt;&lt;li &gt;Default list&lt;/li &gt;&lt;/ol&gt;</code>
@@ -177,60 +180,108 @@
     		<section>
         	<h2>Main Navigation</h2>
            		<h3>CSS selector:</h3>
-            		<p>.main-nav</p>
+            		<p class="info-left">.main-nav</p>
           
           	<h3>Sample code:</h3>
             	<code>&lt;ul class="main-nav"&gt;&lt;li &gt;&lt;a href="#" class="button-nav"&gt;Default Main one&lt;/a&gt;&lt;/li &gt;&lt;li &gt;&lt;a href="#" class="button-nav"&gt;Default Main two&lt;/a&gt;&lt;/li &gt;&lt;li &gt;&lt;a href="#" class="button-nav"&gt;Default Main three&lt;/a&gt;&lt;/li &gt;&lt;/ul&gt;</code>
 
           	<h3>Rendered element:</h3>
-             	<ul class="main-nav">
-                	<li><a class="button-nav" href="#">Default Main one</a></li>
-                	<li><a class="button-nav" href="#">Default Main two</a></li>
-                	<li><a class="button-nav" href="#">Default Main three</a></li>
-              	</ul>
+              <nav class="main-nav">
+                <div class="main-nav-logo">
+                  <a href="index.html">
+                    <img src="icons/logo-icon.png" class="logo" alt="logo-icon">
+                  </a>
+                </div>
+
+                <div class="main-nav-icon">
+                  <a href="logIn.html">
+                    <img src="icons/account.png" class="icon" alt="person-icon">
+                  </a>
+                  <a href="">
+                    <img src="icons/shopping-cart.png" class="icon" alt="shopping-cart">
+                  </a>
+                </div>
+
+                <div class="main-nav-direction">
+                  <ul>
+                    <li>
+                      <a href="index.html" class="select">Home</a>
+                    </li>
+                    <li>
+                      <a href="product.html" >Product</a>
+                    </li>
+                    <li>
+                      <a href="customOrder.html" >Custom Order</a>
+                    </li>
+                    <li>
+                      <a href="material.html" >Material</a>
+                    </li>
+                    <li>
+                      <a href="service.html" >Service</a>
+                    </li>
+                    <li>
+                      <a href="aboutUs.html" >About Us</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- side menu icons in mobile view -->
+                <div class="side-nav-icon">
+                  <button id="showLeftPush">
+                    <img src="icons/side-nav.png" class="icon" alt="menu-icon" >
+                    </button>
+                  <img src="icons/search.png" class="icon" alt="search-icon">
+                </div>
+              </nav>
       		</section>
 
       		<section>
         	<h2>Side Navigation</h2>
            		<h3>CSS selector:</h3>
-            		<p>.side-nav</p>
+            		<p class="info-left">.cbp-spmenu</p>
+                <p class="info-left">.cbp-spmenu-vertical</p>
+                <p class="info-left">.cbp-spmenu-left</p>
+                <p class="info-left">#cbp-spmenu-s1</p>
           
           		<h3>Sample code:</h3>
-            		<code>&lt;ul class="side-nav"&gt;&lt;li &gt;Default Main one&lt;/li &gt;&lt;ul&gt;&lt;li &gt;Sub one&lt;/li &gt;&lt;/ul &gt;&lt;li &gt;Default Main two&lt;/li &gt;&lt;li &gt;Default Main three&lt;/li &gt;&lt;/ul&gt;</code>
+            		<code>&lt;nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1"&gt;&lt;a &gt;Default Main one&lt;/a &gt;&lt;a &gt;Default Main two&lt;/a &gt;&lt;a &gt;Default Main three&lt;/a &gt;&lt;a &gt;Default Main four&lt;/a &gt;&lt;/nav&gt;</code>
 
           		<h3>Rendered element:</h3>
-              		<ul class="side-nav">
-                		<li>Default Main one</li>
-                  		<ul class="side-nav">
-                    		<li>Sub one</li>
-                  		</ul>
-                		<li>Default Main two</li>
-                		<li>Default Main three</li>
-              		</ul>
+                  <h1>Menu</h1>
+                  <button id="showLeftPush">
+                    <img src="icons/side-nav.png" class="icon" alt="menu-icon" >
+                  </button>
+              		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+                      <a href="#" class="select">Default Main one</a>
+                      <a href="#" >Default Main two</a>
+                      <a href="#" >Default Main three</a>
+                      <a href="#" >Default Main four</a>
+                  </nav>
       		</section>
 
           <section>
             <h2>Grid structure</h2>
               <h3>CSS selector:</h3>
-              <p>.col-1of4</p>
-              <p>.grid-row</p>
+              <p class="info-left">.col-of-4</p>
+              <p class="info-left">.responsive-row</p>
+              <p class="info-left">.responsive-col</p>
 
 
             <h3>Sample code:</h3>
-            <code>&lt;div class="col-1of4"&gt;&lt;/div&gt;</code>
+            <code>&lt;div class="col-of-4"&gt;&lt;/div&gt;</code>
 
             <h3>Rendered element:</h3>
-            <div class="grid-row">
-              <div class="grid-col-1of4">  
+            <div class="responsive-row responsive-col">
+              <div class="col-of-4">  
                 <a class="button-nav" href="#">Default Main one</a>
               </div>
-              <div class="grid-col-1of4">  
+              <div class="col-of-4">  
                  <a class="button-nav" href="#">Default Main two</a>
                </div>
-               <div class="grid-col-1of4">  
+               <div class="col-of-4">  
                  <a class="button-nav" href="#">Default Main three</a>
                </div>
-               <div class="grid-col-1of4">  
+               <div class="col-of-4">  
                   <a class="button-nav" href="#">Default Main four</a>
                </div>
             </div>

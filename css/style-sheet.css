@@ -32,7 +32,7 @@ section code {
 */
 
 /* Styling for the navigation button */
-.button-nav {
+/*.button-nav {
   display: inline-block;
   padding: 0.5em 0.75em;
   color: black;
@@ -45,7 +45,7 @@ section code {
 
 .button-nav:hover, .button-nav:focus {
   color: rgb(236,199,12);
-}
+}*/
 
 .intext-link {
   display: inline-block;
@@ -61,7 +61,7 @@ section code {
 }
 
 /* Styling for the submit button */
-.button-submit {
+/*.button-submit {
   display: inline-block;
   border: none;
   padding: 0.5em 0.75em;
@@ -75,7 +75,7 @@ section code {
 
 .button-submit:hover, .button-nav:focus {
   background-color: rgb(180,137,69);
-}
+}*/
 
 .input-text[type=text] {
     width: 10em;
@@ -91,7 +91,7 @@ section code {
 */
 
 /* Styling for the heading */
-.h1{
+/*.h1{
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   font-size: 2.5rem;
   font-weight: bold;
@@ -109,22 +109,22 @@ section code {
 }
 
 /* Styling for the description */
-.desc{
+/*.desc{
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   font-size: 1rem;
   font-style: italic;
-}
+}*/
 
 /* Styling for the paragra */
-.para{
+/*.para{
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   font-size: 1rem;
-}
+}*/
 
-.icon{
+/*.icon{
   width: 30px;
   height: auto;
-}
+}*/
 /* 
   COMBINED ELEMENTS -------------------
 */
