@@ -80,7 +80,17 @@
 
 				<section class="mainImage">
 					<a class="previousButton" href="index2.html">Previous</a>
-					<a href="Chair1Page.html"><img id="cabinetImg" src="img/mainImage.png" alt="cabinet"></a>
+					<a  href="Chair1Page.html">			
+						<picture>
+					        <source media="(min-width:515px)"
+					            srcset="img/mainImage.png">
+					            
+					          <source srcset="
+					                    img/mainImage-phone.png">
+					      	  <img src="img/mainImage.png" alt"">
+					      	  <!-- <a href="Chair1Page.html"> -->	
+				      	</picture>
+				    </a>
 					<a class="nextButton" href="index2.html">Next</a>
 				</section>
 
