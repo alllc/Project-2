@@ -3,7 +3,7 @@
 <html lang="en">
 
 	<head>
-		<title>Checkout</title>
+		<title>Shopping Cart</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -25,6 +25,7 @@
 		</nav>
 
 		<div class="body-content">
+
 			<section class="main-nav-section">
 				<nav class="main-nav">
 					<div class="main-nav-logo">
@@ -35,10 +36,10 @@
 
 					<div class="main-nav-icon">
 						<a href="logIn.html">
-							<img src="icons/account.png" class="icon select" alt="person-icon">
+							<img src="icons/account.png" class="icon" alt="person-icon">
 						</a>
 						<a href="shoppingCart.html">
-							<img src="icons/shopping-cart.png" class="icon " alt="shopping-cart">
+							<img src="icons/shopping-cart.png" class="icon" alt="shopping-cart">
 						</a>
 					</div>
 
@@ -51,13 +52,13 @@
 								<a href="product.html" >Product</a>
 							</li>
 							<li>
-								<a href="customOrder.html" >Custom Order</a>
+								<a href="customOrder.html">Custom Order</a>
 							</li>
 							<li>
 								<a href="material.html" >Material</a>
 							</li>
 							<li>
-								<a href="service.html" >Service</a>
+								<a href="service.html">Service</a>
 							</li>
 							<li>
 								<a href="aboutUs.html" >About Us</a>
@@ -65,63 +66,27 @@
 						</ul>
 					</div>
 
-					<!-- side menu icons in mobile view -->
-					<div class="side-nav-icon">
-						<button id="showLeftPush">
-							<img src="icons/side-nav.png" class="icon" alt="menu-icon" >
-							</button>
-						<img src="icons/search.png" class="icon" alt="search-icon">
-					</div>
+						<!-- side menu icons in mobile view -->
+						<div class="side-nav-icon">
+							<button id="showLeftPush">
+								<img src="icons/side-nav.png" class="icon" alt="menu-icon" >
+								</button>
+							<img src="icons/search.png" class="icon" alt="search-icon">
+						</div>
 				</nav>
 			</section>
 			
 			<section class="body-content-section">
-				<section class="steps col-of-1">
-					<div class="stepbar responsive-row">
-						<div class="col-of-3 steps">
-							<div class="stepNum" id="step1-2" onclick="window.location.href='orderPayment2.html'">
-								<a>1</a>
-							</div>
-							<div>
-								<p>Customer Info</p>
-							</div>
-						</div>
-						<div class="col-of-3 steps">
-							<div class="stepNum" id="step1-2" onclick="window.location.href='orderPayment3.html'">
-								<a>2</a>	
-							</div>
-							<div>
-								<p>Card Info</p>
-							</div>
-						</div>
-						<div class="col-of-3 steps">
-							<div class="stepNum" id="step1-1" onclick="window.location.href='orderPayment4.html'">
-								<a>3</a>
-							</div>
-							<div>
-								<p>Order Info</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<form class="paymentForm narrow-with-content">
-				  	<div class="container">
-				  		<h1>Congratulation!</h1>
-
-				   		<p>
-				   			Your order has been placed. Your order number is #8052543. 
-				   		</p>
-
-				    	<div class="col-of-1 responsive-row paymentButton">
-				    		<div>
-								<a class="button-view-small" href="orderPayment3.html">Back</a>
-							</div>
-							<div>
-				    			<a class="button-view-small" href="orderPayment5.html">Next</a>
-				    		</div>
-				    	</div>
-				  	</div>
-				</form>	
+				<div class="col-of-1">
+					<h1>Shopping cart</h1>
+				</div>
+				<section class="narrow-with-content payment responsive-row responsive-col">
+					<div class="checkoutItem responsive-row responsive-col">
+					 		<h2>Your shopping cart is empty.</h2>
+				    </div>
+				 </section>
+			 	 <a class="button-checkout button-view-large" href="orderPayment2.html">Chekout</a>
+				 <button class="button-cancel" onclick="window.location.href='index2.html'">Cancel</button>
 			</section>
 			<section class="footer">
 				<section class="col-of-3">

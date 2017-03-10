@@ -433,16 +433,7 @@ a.select{
 
 #step1-1 {background-color: #aaa;}
 #step1-2 {background-color: #eee;}
-#step1-3 {background-color: #eee;}
 
-#step2-1 {background-color: #eee;}
-#step2-2 {background-color: #aaa;}
-#step2-3 {background-color: #eee;}
-
-
-#step3-1 {background-color: #eee;}
-#step3-2 {background-color: #eee;}
-#step3-3 {background-color: #aaa;}
 
 
 div.tab {
@@ -512,7 +503,7 @@ div.tab a{
 	display: block;
 	margin: 2em auto 2em auto;
 	border-style: solid;
-	
+	width: 1024px;
 	border-width: 2px;
 	border-color: #ccc;
 }
