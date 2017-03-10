@@ -28,10 +28,10 @@ p{
 	font-size: 0.9rem;
 }
 
-form {
+/*form {
     border: 3px solid #eee;
     padding: 2em;
-}
+}*/
 
 input[type=text], input[type=password] {
     width: 	100%;

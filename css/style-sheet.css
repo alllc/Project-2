@@ -3,7 +3,7 @@
   Default styling for the style guide 
 */
 body {
-  font-family: sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   padding: 2rem;
 }
 
@@ -32,20 +32,22 @@ section code {
 */
 
 /* Styling for the navigation button */
-/*.button-nav {
+.button-view {
+  margin:0.5em;
   display: inline-block;
-  padding: 0.5em 0.75em;
-  color: black;
-  border-radius: 0.25em;
-  text-decoration: none;
-  -webkit-transition: color 0.5s ease-out;
-  transition: color 0.5s ease-out;
+    border: none;
+    padding: 0.3em 0.5em;
+    color: #FFF;
+    background-color: rgb(139,203,200);
+    border-radius: 0.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }
 
-
-.button-nav:hover, .button-nav:focus {
-  color: rgb(236,199,12);
-}*/
+.button-view:hover, .button-nav:focus {
+    background-color: rgb(138,203,230);
+}
 
 .intext-link {
   display: inline-block;
@@ -77,13 +79,18 @@ section code {
   background-color: rgb(180,137,69);
 }*/
 
-.input-text[type=text] {
-    width: 10em;
-    padding: 0.5em 0.75em;
-    margin: 0.2em;
+form {
+    border: 3px solid #eee;
+    padding: 2em;
+}
+input[type=text], input[type=password] {
+    width:  100%;
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #8BCBC8;
     box-sizing: border-box;
-    border: 0.15em solid #cccccc;
-    color: #555
+    color: #aaa;
 }
 
 /* 
@@ -91,40 +98,41 @@ section code {
 */
 
 /* Styling for the heading */
-/*.h1{
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  font-size: 2.5rem;
-  font-weight: bold;
+h1{
+  font-size: 1.5rem;
+    font-weight: bold;
 }
-.h2{
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  font-size: 2rem;
-  font-weight: bold;
+h2{
+    font-size: 1.1rem;
+    font-weight: bold;
 }
-.h3{
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  font-size: 1rem;
-  font-weight: bold;
-  font-style: italic;
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* Styling for the description */
-/*.desc{
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  font-size: 1rem;
-  font-style: italic;
-}*/
-
+.desc{
+    font-size: 1rem;
+    text-align: left;
+    font-style: italic;
+}
 /* Styling for the paragra */
-/*.para{
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  font-size: 1rem;
-}*/
+.para{
+  /*color: rgb(150,150,150);*/
+    font-size: 1rem;
+    text-align: left;
+}
 
-/*.icon{
-  width: 30px;
+.icon{
+  width: 25px;
+  display: inline-block;
+}
+.logo{
+  width: 100px;
   height: auto;
-}*/
+}
 /* 
   COMBINED ELEMENTS -------------------
 */
