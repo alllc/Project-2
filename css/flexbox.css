@@ -253,4 +253,7 @@
 	.loginForm {
 		width: 80%;
 	}
+	#totalPrice {
+		text-align: center;
+	}
 }
