@@ -221,9 +221,14 @@
 		order: 3;
 		flex-grow: 0;
 	}
-/*	.item-name{
-		size: 0.8em;
-	}*/
+
+	.loginForm {
+		width: 60%;
+	}
+
+	.item-name {
+		font-size: 0.7em;
+	}
 }
 @media(max-width: 515px){
 	/* make product list into column*/
@@ -240,5 +245,11 @@
 	}
 	.items div{
 		margin-top: 4em;
+	}
+	.item-name {
+		font-size: 0.9em;
+	}
+	.loginForm {
+		width: 80%;
 	}
 }
