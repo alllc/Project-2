@@ -405,22 +405,17 @@ a.select{
 	cursor: pointer;
 }
 
+.stepbar{
+	background-color: #eee;
+	width: 100%;
+	height: 26px;
+	border-radius: 12px;
+	margin-bottom: 2em;
+}
 
 #step1-1 {background-color: #aaa;}
 #step1-2 {background-color: #eee;}
-#step1-3 {background-color: #eee;}
 
-#step2-1 {background-color: #8BCBC8;}
-#step2-2 {background-color: #aaa;}
-#step2-3 {background-color: #eee;}
-
-#step3-1 {background-color: #8BCBC8;}
-#step3-2 {background-color: #8BCBC8;}
-#step3-3 {background-color: #aaa;}
-
-#step4-1 {background-color: #8BCBC8;}
-#step4-2 {background-color: #8BCBC8;}
-#step4-3 {background-color: #8BCBC8;}
 
 div.tab {
     overflow: hidden;

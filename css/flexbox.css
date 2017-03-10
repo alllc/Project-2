@@ -171,6 +171,10 @@
 /* step tage shows on top of the custom order pages and payment pages*/
 .steps {
     justify-content: center;
+    padding: 0;
+}
+.stepbar{
+	padding: 0;
 }
 
 .payment{
