@@ -143,10 +143,10 @@
 }
 .items div{
 	padding: 0;
-	margin-top: 2em;
+	margin-top: 3em;
 }
 .item-name{
-	height: 10%;
+	height: 2em;
 }
 
 /*flexbox for chair1 page*/
@@ -220,7 +220,9 @@
 		order: 3;
 		flex-grow: 0;
 	}
-
+/*	.item-name{
+		size: 0.8em;
+	}*/
 }
 @media(max-width: 515px){
 	/* make product list into column*/
@@ -230,8 +232,12 @@
 	.productsImage {
 		display: none;
 	}
+
 	.productShow img{
 		width: 100%;
 		height: auto;
+	}
+	.items div{
+		margin-top: 4em;
 	}
 }
