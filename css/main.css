@@ -339,7 +339,17 @@ a.select{
 	width: 50%;
 }
 
+.productsImage {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 120px;
+	max-width: 1024px;
+	display: block;
+	margin: 0 auto;
+}
+
 .productsImage img{
+	padding: 0.5em 0.2em;
 	width: auto;
 	height: 100px;
 }
