@@ -258,4 +258,7 @@
 	.body-content-section{
 		margin: 4em auto 1em auto;
 	}
+	.order-2{
+		order: 2;
+	}
 }
