@@ -126,7 +126,7 @@
 
 /* product image on project page */
 .productsImage{
-	justify-content: flex-start;
+	justify-content: space-between;
 	/*align-items: stretch;*/
 }
 
