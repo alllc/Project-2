@@ -258,6 +258,7 @@ a.select{
   	color: rgb(139,203,200);
   	font-size: 0.8em;
   	border-radius: 0.25em;
+  	cursor: pointer;
   	text-decoration: underline;
 }
 
